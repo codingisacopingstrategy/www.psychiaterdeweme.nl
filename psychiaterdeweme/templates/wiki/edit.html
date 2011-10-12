@@ -1,8 +1,6 @@
 {% extends 'wiki/base.html' %}
 
-
-{% block content %}
-  <div class="hidden_content">{{ page.content|safe }}</div>
+{% block page_header %}
   <form action="" method="post">
     {% csrf_token %}
 
@@ -12,7 +10,10 @@
         {{ form.name }}
       </div>
     </div>
+{% endblock %}
 
+{% block content %}
+  <div class="hidden_content">{{ page.content|safe }}</div>
     <div class="field_wrapper required{% if form.content.errors %} errors{% endif %}" id="field_content">
       {% if form.content.errors %}{{ form.content.errors }}{% endif %}
       <div class="field textarea">

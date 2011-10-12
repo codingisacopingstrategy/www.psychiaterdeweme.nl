@@ -53,6 +53,13 @@ h3 a {
     font-size: 22px;
 }
 
+.page_header h3, .page_header input#id_name {
+    margin-top: 80px;
+}
+
+input#id_name {
+    width: 300px;
+}
 a, a:visited, a:hover, a:active {
   color: #0000ff; 
 }

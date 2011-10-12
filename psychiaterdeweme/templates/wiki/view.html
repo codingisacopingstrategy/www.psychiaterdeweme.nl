@@ -1,9 +1,11 @@
 {% extends 'wiki/base.html' %}
 
 
-{% block content %}
+{% block page_header %}
   <h3>{{ page.name }} {% if user.is_authenticated %}<a class="admin" href="/{{ page.name }}/edit/">edit</a>{% endif %}</h3>
+{% endblock %}
 
+{% block content %}
   {% if not page.id %}
     <p>This page does not exist, <a href="edit/">create it now</a>?</p>
   {% endif %}
