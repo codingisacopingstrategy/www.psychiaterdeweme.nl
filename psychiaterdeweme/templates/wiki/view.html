@@ -2,7 +2,7 @@
 
 
 {% block page_header %}
-  <h3>{{ page.name }} {% if user.is_authenticated %}<a class="admin" href="/{{ page.name }}/edit/">edit</a>{% endif %}</h3>
+  <h3>{{ page.name }} {% if user.is_authenticated %}<a class="btn" href="/{{ page.name }}/edit/">edit</a>{% endif %}</h3>
 {% endblock %}
 
 {% block content %}

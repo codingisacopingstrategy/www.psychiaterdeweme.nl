@@ -7,6 +7,7 @@
   <title>R.J.C. de Weme psychiater/psychotherapeut | {{ page.name }}</title>
   <link rel="stylesheet" href="{{ STATIC_URL }}reset.css" type="text/css"/>
   <link rel="stylesheet" href="{{ STATIC_URL }}grid.css" type="text/css"/>
+  <link rel="stylesheet" href="{{ STATIC_URL }}straps.css" type="text/css"/>
   <link rel="stylesheet" href="{{ STATIC_URL }}style.css" type="text/css"/>
   <script src="{{ STATIC_URL }}jquery.min.js"></script>
   {% if user.is_authenticated %}<script src="{{ STATIC_URL }}admin.js"></script>{% endif %}
@@ -27,7 +28,7 @@
 <div class="clear"></div>
 
 <div class="container_12" id="container">
-<div class="grid_2 suffix_1">
+<div class="grid_2 suffix_1" id="nav">
 {% if pages %}
     <ul>
         {% for page in pages %}
@@ -36,7 +37,7 @@
     </ul>
 {% endif %}
 {% if user.is_authenticated %}
-    <p><a class="admin" href="/NewPage/edit/">nieuwe pagina</a></p>
+    <a class="btn" href="/NewPage/edit/">nieuwe pagina</a>
 {% endif %}
 </div>
 
