@@ -9,6 +9,7 @@ urlpatterns = patterns('',
      url(r'^logout$', 'django.contrib.auth.views.logout', name='logout'),
     url(r'^login$', 'django.contrib.auth.views.login', name='login'),   
    (r'^', include('psychiaterdeweme.wiki.urls')),
+   (r'^tinymce/', include('tinymce.urls')),
     # url(r'^frame/', include('frame.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

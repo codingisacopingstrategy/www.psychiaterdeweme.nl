@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="{{ STATIC_URL }}style.css" type="text/css"/>
   <script src="{{ STATIC_URL }}jquery.min.js"></script>
   {% if user.is_authenticated %}<script src="{{ STATIC_URL }}admin.js"></script>{% endif %}
+  <script type="text/javascript" src="{{ STATIC_URL }}js/tiny_mce/tiny_mce.js"></script>
+  <script type="text/javascript" src="{% url tinymce-js "default" %}"></script>
 </head>
 <body>
 <div class="container_12" id="header">
