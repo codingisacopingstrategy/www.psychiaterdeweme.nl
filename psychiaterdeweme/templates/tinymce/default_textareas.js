@@ -1,6 +1,6 @@
 tinyMCE.init({
     mode: "textareas",
-    theme: "advanced",
+    theme: "rjcdeweme",
     plugins: "spellchecker,directionality,paste,searchreplace",
     language: "{{ language }}",
     directionality: "{{ directionality }}",
