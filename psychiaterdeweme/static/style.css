@@ -19,11 +19,17 @@ body {
   background: #ffffff;
 }
 
+textarea, input {
+    font: 16px/22px "Verdana", sans-serif;
+    color: #0000ff;
+    background: #ffffff;
+}
+
 #header {
   height: 105px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, input#id_name {
   font-weight: normal;
   font-family: 'Logisoso';
   color: #0000ff;
@@ -38,9 +44,13 @@ h1 a {
     text-decoration: none;
 }
 
-h2 {
+h2, h3, input#id_name {
   font-size: 44px;
   line-height: 44px;
+}
+
+h3 a {
+    font-size: 22px;
 }
 
 a, a:visited, a:hover, a:active {
@@ -69,4 +79,18 @@ div#visualisation {
 div#container {
     margin-left: 160px;
     margin-top: 120px;
+}
+
+textarea {
+    width: 100%;
+    
+}
+
+.hidden_content {
+    visibility: hidden;
+    position:absolute;
+}
+
+.admin {
+    background-color: yellow;
 }

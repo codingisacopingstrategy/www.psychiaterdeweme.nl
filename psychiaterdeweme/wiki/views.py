@@ -50,6 +50,7 @@ def edit(request, name):
 
     context = {
         'form': form,
+        'page': page
     }
 
     return render_to_response('wiki/edit.html',

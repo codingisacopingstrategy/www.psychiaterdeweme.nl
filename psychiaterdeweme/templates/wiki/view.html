@@ -2,13 +2,13 @@
 
 
 {% block content %}
-  <h3>{{ page.name }}</h3>
+  <h3>{{ page.name }} {% if user.is_authenticated %}<a class="admin" href="/{{ page.name }}/edit/">edit</a>{% endif %}</h3>
 
   {% if not page.id %}
     <p>This page does not exist, <a href="edit/">create it now</a>?</p>
   {% endif %}
 
-  {{ page.content|safe|linebreaks }}
+  {{ page.content|safe }}
 {% endblock %}
 
 
