@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8"/>
+
+  <title>R.J.C. de Weme psychiater/psychotherapeut | {{ page.name }}</title>
+  <link rel="stylesheet" href="{{ STATIC_URL }}reset.css" type="text/css"/>
+  <link rel="stylesheet" href="{{ STATIC_URL }}grid.css" type="text/css"/>
+  <link rel="stylesheet" href="{{ STATIC_URL }}style.css" type="text/css"/>
+
+  
+</head>
+<body>
+<div class="container_12" id="header">
+<div class="grid_12">
+  <h1><a href="{% url wiki.views.index %}">R.J.C. de Weme</a></h1>
+  <h2>psychiater/psychotherapeut</h2>
+</div>
+</div>
+
+<div class="clear"></div>
+
+<div class="container_12" id="container">
+<div class="grid_2 suffix_1">
+{% if pages %}
+    <ul>
+        {% for page in pages %}
+            <li><a href="{{ page.name }}">{{ page.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p><a href="NewPage/edit/">Create a new page</a>.</p>
+{% endif %}
+</div>
+
+<div class="grid_9">
+{% block content %}{% endblock %}
+
+<p>{% if user.is_authenticated %}
+Hallo {{ user.get_full_name }}. <a href="/logout?next=/{{ request.path }}">Logout</a>
+{% else %}
+Not logged in. <a href="/login?next=/{{ request.path }}">Log in</a>.
+{% endif %}</p>
+</div>
+
+</div>
+
+<div id="visualisation">
+    <img src="{{ STATIC_URL }}netwerksnippet_dubbel.png" style="width:600px;height:163px;" />
+</div>
+</body>
+</html>

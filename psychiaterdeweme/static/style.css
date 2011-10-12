@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'Logisoso';
+    src: url('Logisoso.eot?#iefix') format('embedded-opentype'), 
+         url('Logisoso.woff') format('woff'), 
+         url('Logisoso.ttf')  format('truetype'),
+         url('Logisoso.svg#svgFontName') format('svg');
+}
+
+body {
+  margin: 15px;
+  padding: 0;
+  font: 16px/22px "Verdana", sans-serif;
+  color: #0000ff;
+  background: #ffffff;
+}
+
+#header {
+  height: 105px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: 'Logisoso';
+  color: #0000ff;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h2 {
+  font-size: 44px;
+  line-height: 44px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #0000ff; 
+}
+
+p {
+  margin-bottom: 22px;
+}
+
+li {
+    list-style: none;
+}
+
+div#header {
+    margin-left: 0;
+}
+
+div#visualisation {
+    position: absolute;
+    z-index: -100;
+    left: 100px;
+    top: 60px;
+}
+
+div#container {
+    margin-left: 160px;
+    margin-top: 120px;
+}
