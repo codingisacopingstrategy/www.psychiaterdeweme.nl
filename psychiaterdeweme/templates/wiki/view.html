@@ -2,21 +2,21 @@
 
 
 {% block content %}
-	<h3>{{ page.name }}</h3>
+  <h3>{{ page.name }}</h3>
 
-	{% if not page.id %}
-		<p>This page does not exist, <a href="edit/">create it now</a>?</p>
-	{% endif %}
+  {% if not page.id %}
+    <p>This page does not exist, <a href="edit/">create it now</a>?</p>
+  {% endif %}
 
-	{{ page.content|safe|linebreaks }}
+  {{ page.content|safe|linebreaks }}
 {% endblock %}
 
 
 {% block footer %}
-	{% if page.id %}
-		<a href="edit/">Edit this page</a>
-	{% else %}
-		<a href="edit/">Create this page</a>
-	{% endif %}
-	|
+  {% if page.id %}
+    <a href="edit/">Edit this page</a>
+  {% else %}
+    <a href="edit/">Create this page</a>
+  {% endif %}
+  |
 {% endblock %}
