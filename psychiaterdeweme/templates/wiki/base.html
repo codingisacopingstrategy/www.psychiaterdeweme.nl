@@ -10,11 +10,29 @@
   <link rel="stylesheet" href="{{ STATIC_URL }}straps.css" type="text/css"/>
   <link rel="stylesheet" href="{{ STATIC_URL }}style.css" type="text/css"/>
   <script src="{{ STATIC_URL }}jquery.min.js"></script>
-  {% if user.is_authenticated %}<script src="{{ STATIC_URL }}admin.js"></script>{% endif %}
+  {% if user.is_authenticated %}
+  <script src="{{ STATIC_URL }}admin.js"></script>
   <script type="text/javascript" src="{{ STATIC_URL }}js/tiny_mce/tiny_mce.js"></script>
   <script type="text/javascript" src="{% url tinymce-js "default" %}"></script>
+  <style>
+  body { padding-top: 40px;}
+  </style>
+  {% endif %}
 </head>
 <body>
+{% if user.is_authenticated %}
+<div class="topbar" >
+  <div class="topbar-inner">
+    <div class="container">
+      <ul class="nav">
+        {% if page.name %}<li><a href="/{{ page.name }}/edit/">Bewerk</a></li>{% endif %}
+        <li><a href="/NieuwePagina/edit/">Nieuwe pagina</a></li>
+        <li><a href="/logout?next=/{{ request.path }}">Uitloggen</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endif %}
 <div class="container_12" id="header">
 <div class="grid_8">
   <h1><a href="{% url wiki.views.index %}">R.J.C. de Weme</a></h1>
@@ -36,19 +54,11 @@
         {% endfor %}
     </ul>
 {% endif %}
-{% if user.is_authenticated %}
-    <a class="btn" href="/NewPage/edit/">nieuwe pagina</a>
-{% endif %}
 </div>
 
 <div class="grid_9">
 {% block content %}{% endblock %}
 
-<p>{% if user.is_authenticated %}
-Hallo {{ user.get_full_name }}. <a href="/logout?next=/{{ request.path }}">Logout</a>
-{% else %}
-Not logged in. <a href="/login?next=/{{ request.path }}">Log in</a>.
-{% endif %}</p>
 </div>
 
 </div>
