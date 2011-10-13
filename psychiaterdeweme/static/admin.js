@@ -1,3 +1,3 @@
 $(function() {
-  $("textarea").height($(".hidden_content").height());
+  $("textarea").height($(".hidden_content").height() + 140);
 });

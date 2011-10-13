@@ -29,8 +29,12 @@ textarea, input {
   height: 105px;
 }
 
-#nav ul {
+#nav ul, .submit {
     margin-bottom: 22px;
+}
+
+.submit {
+    margin-top: 22px;
 }
 
 h1, h2, h3, h4, h5, h6, input#id_name {
