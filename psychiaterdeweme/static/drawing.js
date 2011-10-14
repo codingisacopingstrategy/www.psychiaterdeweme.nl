@@ -1,5 +1,5 @@
 $(function() {
-$("body").prepend('<canvas id="drawing_surface" style="position:absolute;top:0;left:0;"></canvas>')
+$("body").prepend('<canvas id="drawing_surface" style="position:absolute;top:0;left:0;z-index:-1"></canvas>')
 var cnvs = document.getElementById("drawing_surface");
 var ctx = cnvs.getContext("2d");
 ctx.canvas.width = $("body").width();
@@ -20,7 +20,6 @@ var drawLine = function(xyFrom, xyTo) {
     ctx.beginPath();
     ctx.moveTo(xyFrom[0], xyFrom[1]);
     ctx.lineTo(xyTo[0], xyTo[1]);
-    ctx.strokeStyle = "#000";
     ctx.stroke();
 }
 
@@ -54,15 +53,37 @@ var endPoints = ["17_11"]
 
 var drawBackground = function() {
     ctx.fillStyle = "rgb(0,0,0)";
-    ctx.strokeStyle = "rgb(0,0,0)";
+    ctx.strokeStyle = "rgb(195,195,195)";
     for (key in points) {    
-        drawCircle(xy(key));
         for (var i = 0; i < points[key].length; i++) {
             drawLine(xy(key), xy(points[key][i]));
             drawCircle(xy(points[key][i]))
         }
+        drawCircle(xy(key));
+    }
+}
+
+var drawNavDots = function() {
+    var navPositions = []
+    $("#nav ul li").each(function() {
+        var position = $(this).offset();
+        navPositions.push([ position['left'], position['top'] + 11 ])
+    });
+    for (var i = 0; i < navPositions.length; i++) {
+        /* wobble */
+        navPositions[i][0] = navPositions[i][0] - 20 + 16 * Math.sin(i);
+        }
+    for (var i = 0; i < navPositions.length; i++) {
+        try {
+            drawLine(navPositions[i], navPositions[i+1]);
+        }
+        catch (error) {
+            // when there is no i+1
+        }
+        drawCircle(navPositions[i]);
     }
 }
 
 drawBackground();
+drawNavDots();
 });
