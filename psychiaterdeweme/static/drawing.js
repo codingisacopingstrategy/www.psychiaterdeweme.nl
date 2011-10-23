@@ -437,11 +437,15 @@ var drawNavDots = function() {
 // drawBackground();
 drawNavDots();
 
-var point = choosePoint(beginPoints);
-var pointA, pointB;
-while ($.inArray(point, endPoints) == -1) {
+var point, pointA, pointB;
+
+var proceed = function() {
+    if (typeof point === "undefined" || $.inArray(point, endPoints) !== -1) {
+        drawBackground();
+        point = choosePoint(beginPoints);
+    }    
     ctx.fillStyle = "rgb(0,0,255)";
-    ctx.strokeStyle = "rgb(195,195,195)";
+    ctx.strokeStyle = "rgb(0,0,255)";
     pointA = point;
     pointB = choosePoint(points[pointA]);
     drawLine(xy(pointA),xy(pointB));
@@ -449,4 +453,6 @@ while ($.inArray(point, endPoints) == -1) {
     drawCircle(xy(pointB));
     point = pointB;
 };
+
+window.setInterval(proceed, 500);
 });
