@@ -2,7 +2,7 @@ require 'rubygems'
 require 'nokogiri'
 require 'json'
 
-f = File.open("Diagram1.xml")
+f = File.open("netwerk.xml")
 @doc = Nokogiri::XML(f)
 f.close
 
