@@ -11,7 +11,7 @@ var xy = function(xyString) {
 }
 
 var choosePoint = function(list) {
-    return xy(list[Math.floor(Math.random() * list.length)])
+    return list[Math.floor(Math.random() * list.length)]
 }
 
 var drawLine = function(xyFrom, xyTo) {
@@ -396,8 +396,8 @@ var points = {
 }
 
 
-var beginPoints = ["10_10"]
-var endPoints = ["17_11"]
+var beginPoints = ["12_32", "38_70", "37_106", "24_143"]
+var endPoints = ["513_54", "527_97", "525_137"]
 
 var drawBackground = function() {
     ctx.fillStyle = "rgb(0,0,0)";
@@ -412,6 +412,8 @@ var drawBackground = function() {
 }
 
 var drawNavDots = function() {
+    ctx.fillStyle = "rgb(0,0,255)";
+    ctx.strokeStyle = "rgb(195,195,195)";
     var navPositions = []
     $("#nav ul li").each(function() {
         var position = $(this).offset();
@@ -432,6 +434,19 @@ var drawNavDots = function() {
     }
 }
 
-drawBackground();
+// drawBackground();
 drawNavDots();
+
+var point = choosePoint(beginPoints);
+var pointA, pointB;
+while ($.inArray(point, endPoints) == -1) {
+    ctx.fillStyle = "rgb(0,0,255)";
+    ctx.strokeStyle = "rgb(195,195,195)";
+    pointA = point;
+    pointB = choosePoint(points[pointA]);
+    drawLine(xy(pointA),xy(pointB));
+    drawCircle(xy(pointA));
+    drawCircle(xy(pointB));
+    point = pointB;
+};
 });
