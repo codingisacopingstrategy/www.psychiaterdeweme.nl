@@ -1,5 +1,4 @@
 $(function() {
-$("body").prepend('<canvas id="drawing_surface" style="position:absolute;top:0;left:0;z-index:-1"></canvas>')
 var cnvs = document.getElementById("drawing_surface");
 var ctx = cnvs.getContext("2d");
 ctx.canvas.width = $("body").width();

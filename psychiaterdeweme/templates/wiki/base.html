@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="{{ STATIC_URL }}grid.css" type="text/css"/>
   <link rel="stylesheet" href="{{ STATIC_URL }}straps.css" type="text/css"/>
   <link rel="stylesheet" href="{{ STATIC_URL }}style.css" type="text/css"/>
+  <!--[if IE]><script src="{{ STATIC_URL }}excanvas.js"></script><![endif]-->
   <script src="{{ STATIC_URL }}jquery.min.js"></script>
   <script src="{{ STATIC_URL }}drawing.js"></script>
   {% if user.is_authenticated %}
@@ -21,6 +22,7 @@
   {% endif %}
 </head>
 <body>
+<canvas id="drawing_surface" style="position:absolute;top:0;left:0;z-index:-1"></canvas>
 {% if user.is_authenticated %}
 <div class="topbar" >
   <div class="topbar-inner">
