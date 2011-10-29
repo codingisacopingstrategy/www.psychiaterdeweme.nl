@@ -31,6 +31,12 @@ body {
   background: transparent;
 }
 
+a, a:visited, a:hover, a:active {
+  color: #0000ff;
+  text-decoration: none;
+  background-color: rgba(195,195,195,0.1);
+}
+
 textarea, input {
     font: 16px/22px "LimousineMedium", sans-serif;
     color: #0000ff;
@@ -60,8 +66,10 @@ h1 {
   line-height: 80px;
 }
 
-h1 a {
+h1 a, h1 a:visited, h1 a:active {
     text-decoration: none;
+    color: #0000ff;
+    background-color: transparent;
 }
 
 h2, h3, input#id_name {
@@ -79,9 +87,6 @@ h3 a {
 
 input#id_name {
     width: 300px;
-}
-a, a:visited, a:hover, a:active {
-  color: #0000ff; 
 }
 
 p {
