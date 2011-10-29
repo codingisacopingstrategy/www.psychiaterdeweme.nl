@@ -53,7 +53,9 @@
 {% if pages %}
     <ul>
         {% for page in pages %}
+        {% if page.visible_in_nav %}
             <li><a href="{{ page.name|lower }}.html">{{ page.name }}</a></li>
+		{% endif %}
         {% endfor %}
     </ul>
 {% endif %}

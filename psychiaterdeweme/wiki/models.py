@@ -7,9 +7,11 @@ class Page(models.Model):
     name = models.CharField(max_length=255, unique=True)
     content = models.TextField()
     rendered = models.TextField()
+    order = models.IntegerField()
+    visible_in_nav = models.BooleanField(default=True)
 
     class Meta:
-        ordering = ('name', )
+        ordering = ('order', 'name', )
 
     def __unicode__(self):
         return self.name

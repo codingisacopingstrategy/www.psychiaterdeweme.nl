@@ -41,11 +41,10 @@ def edit(request, name):
     if request.method == 'POST':
         form = PageForm(request.POST)
         if form.is_valid():
-            if not page:
-                page = Page()
             page.name = form.cleaned_data['name']
             page.content = form.cleaned_data['content']
-
+            if not page.order:
+                page.order = Page.objects.latest('order').order + 1            
             page.save()
             return redirect(view, name=page.name)
     else:
