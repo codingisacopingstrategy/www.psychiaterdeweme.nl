@@ -14,7 +14,10 @@ def view(request, name):
     try:
         page = Page.objects.get(name=name)
     except Page.DoesNotExist:
-        page = Page(name=name)
+        try:
+            page = Page.objects.get(name=name.title())
+        except Page.DoesNotExist:
+            page = Page(name=name)
 
     context = {
         'page': page,
@@ -30,7 +33,10 @@ def edit(request, name):
     try:
         page = Page.objects.get(name=name)
     except Page.DoesNotExist:
-        page = None
+        try:
+            page = Page.objects.get(name=name.title())
+        except Page.DoesNotExist:
+            page = Page(name=name)
 
     if request.method == 'POST':
         form = PageForm(request.POST)
