@@ -1,3 +1,6 @@
+import json
+
+from django.http import HttpResponse
 from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
 
@@ -61,3 +64,18 @@ def edit(request, name):
 
     return render_to_response('wiki/edit.html',
         RequestContext(request, context))
+
+def update_order(request):
+    if request.is_ajax() and request.method == 'POST':
+        order = json.loads(request.raw_post_data)
+        debug = ["LABEL ORDERING DEBUG OUTPUT"]
+        for label in order:
+            try:
+                page = Page.objects.get(name=label['id'])
+                page.order = label['order']
+                page.save()
+                debug.append("%s stored at position %s" % (label['id'], label['order']))
+            except:
+                debug.append("fail %s @ %s" % (label['id'], label['order']))
+        return HttpResponse('\n'.join(debug))
+    return HttpResponse("not ok")

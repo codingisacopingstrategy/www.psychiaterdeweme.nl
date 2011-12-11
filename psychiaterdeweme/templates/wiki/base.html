@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="{{ STATIC_URL }}grid.css" type="text/css"/>
   <link rel="stylesheet" href="{{ STATIC_URL }}straps.css" type="text/css"/>
   <link rel="stylesheet" href="{{ STATIC_URL }}style.css" type="text/css"/>
-  <!--[if IE]><script src="{{ STATIC_URL }}excanvas.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="{{ STATIC_URL }}excanvas.js"></script><![endif]-->
   <script src="{{ STATIC_URL }}jquery.min.js"></script>
   <script src="{{ STATIC_URL }}drawing.js"></script>
   {% if user.is_authenticated %}
+  <!--[if lt IE 8]><script src="{{ STATIC_URL }}json2.min.js"></script><![endif]-->
+  <script src="{{ STATIC_URL }}jquery-ui.sortable.min.js"></script>
   <script src="{{ STATIC_URL }}admin.js"></script>
   <script type="text/javascript" src="{{ STATIC_URL }}js/tiny_mce/tiny_mce.js"></script>
   <script type="text/javascript" src="{% url tinymce-js "default" %}"></script>
@@ -54,7 +56,7 @@
     <ul>
         {% for page in pages %}
         {% if page.visible_in_nav %}
-            <li><a href="{{ page.name|lower }}.html">{{ page.name }}</a></li>
+            <li><a href="{{ page.name|lower }}.html" id="{{ page.name }}">{{ page.name }}</a></li>
 		{% endif %}
         {% endfor %}
     </ul>

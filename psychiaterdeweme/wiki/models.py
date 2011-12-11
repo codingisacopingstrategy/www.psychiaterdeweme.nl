@@ -11,7 +11,7 @@ class Page(models.Model):
     visible_in_nav = models.BooleanField(default=True)
 
     class Meta:
-        ordering = ('order', 'name', )
+        ordering = ('order',)
 
     def __unicode__(self):
         return self.name
