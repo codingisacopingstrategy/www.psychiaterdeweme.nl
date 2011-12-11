@@ -30,7 +30,7 @@
   <div class="topbar-inner">
     <div class="container">
       <ul class="nav">
-        {% if page.name %}<li><a href="/{{ page.name|lower }}.html/edit/">Bewerk</a></li>{% endif %}
+        {% if page.name %}<li><a href="/{{ page.name}}.html/edit/">Bewerk</a></li>{% endif %}
         <li><a href="/NieuwePagina.html/edit/">Nieuwe pagina</a></li>
         <li><a href="/logout?next=/{{ request.path }}">Uitloggen</a></li>
       </ul>
@@ -56,7 +56,7 @@
     <ul>
         {% for page in pages %}
         {% if page.visible_in_nav %}
-            <li><a href="{{ page.name|lower }}.html" id="{{ page.name }}">{{ page.name }}</a></li>
+            <li><a href="{{ page.name }}.html" id="{{ page.name }}">{{ page.name }}</a></li>
 		{% endif %}
         {% endfor %}
     </ul>

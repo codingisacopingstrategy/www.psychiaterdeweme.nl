@@ -7,7 +7,7 @@
 
 {% block content %}
   {% if not page.id %}
-    <p>This page does not exist, <a href="edit/">create it now</a>?</p>
+    <p>This page does not exist, <a href="{{ page.name }}.html/edit/">create it now</a>?</p>
   {% endif %}
 
   {{ page.content|safe }}
