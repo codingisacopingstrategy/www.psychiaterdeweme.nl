@@ -5,10 +5,13 @@
 
 @font-face {
     font-family: 'Logisoso';
-    src: url('Logisoso.eot?#iefix') format('embedded-opentype'), 
-         url('Logisoso.woff') format('woff'), 
-         url('Logisoso.ttf')  format('truetype'),
-         url('Logisoso.svg#svgFontName') format('svg');
+    src: url('logisoso-weme-webfont.eot');
+    src: url('logisoso-weme-webfont.eot?#iefix') format('embedded-opentype'),
+         url('logisoso-weme-webfont.woff') format('woff'),
+         url('logisoso-weme-webfont.ttf') format('truetype'),
+         url('logisoso-weme-webfont.svg#LogisosoMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
