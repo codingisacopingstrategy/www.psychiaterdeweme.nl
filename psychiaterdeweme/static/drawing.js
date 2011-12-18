@@ -1,5 +1,10 @@
 $(function() {
 var cnvs = document.getElementById("drawing_surface");
+// Enable canvas explorer for IE:
+if (typeof G_vmlCanvasManager != "undefined") {
+    cnvs = window.G_vmlCanvasManager.initElement(cnvs);
+}
+
 var ctx = cnvs.getContext("2d");
 ctx.canvas.width = $("body").width();
 ctx.canvas.height = $(document).height();
@@ -435,6 +440,15 @@ var drawNavDots = function() {
 
 // drawBackground();
 drawNavDots();
+$(window).resize(function() {
+    // fill over previous navdots
+    ctx.fillStyle = "rgb(255,255,255)";
+    var top = $("#nav ul").offset()['top'];
+    var height = $("#nav ul").height();
+    ctx.fillRect(0, top, 400, height);
+    // new navdots
+    drawNavDots();
+});
 
 var point, pointA, pointB;
 
