@@ -24,7 +24,7 @@
   {% endif %}
 </head>
 <body>
-<canvas id="drawing_surface" style="position:absolute;top:0;left:0;z-index:-1"></canvas>
+<canvas id="drawing_surface" style="position:absolute;top:0;left:50%;z-index:-1;width:960px;margin-left:-480px;"></canvas>
 {% if user.is_authenticated %}
 <div class="topbar" >
   <div class="topbar-inner">
@@ -51,7 +51,7 @@
 <div class="clear"></div>
 
 <div class="container_12" id="container">
-<div class="grid_2 suffix_1" id="nav">
+<div class="grid_2 prefix_1" id="nav">
 {% if pages %}
     <ul>
         {% for page in pages %}
@@ -65,15 +65,16 @@
 <img src="/static/deweme_220.png" />
 </div>
 
-<div class="prefix_1 grid_8">
+<div class="prefix_1 grid_7 suffix_1">
 {% block content %}{% endblock %}
 
 </div>
-
 </div>
 
-<!--<div id="visualisation">
-    <img src="{{ STATIC_URL }}netwerksnippet_dubbel.png" style="width:600px;height:163px;" />-->
+<div class="clear"></div>
+
+<div class="container_12" id="footer">
+  <div class="grid_12"><p>ontwerp door <a href="http://schr.fr/" title="schr.fr contemporary design">schr.fr</a></p></div>
 </div>
 </body>
 </html>

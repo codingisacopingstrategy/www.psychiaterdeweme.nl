@@ -409,18 +409,21 @@ var drawBackground = function() {
     for (key in points) {    
         for (var i = 0; i < points[key].length; i++) {
             drawLine(xy(key), xy(points[key][i]));
-            drawCircle(xy(points[key][i]))
+            // drawCircle(xy(points[key][i]))
         }
-        drawCircle(xy(key));
+        // drawCircle(xy(key));
     }
 }
 
 var drawNavDots = function() {
+    ctx.save();
+    ctx.translate(-200 , 100 );
     ctx.fillStyle = "rgb(0,0,255)";
     ctx.strokeStyle = "rgb(195,195,195)";
     var navPositions = []
     $("#nav ul li").each(function() {
         var position = $(this).offset();
+//        position['left'] = position['left'] + $("canvas").offset()['left'];
         navPositions.push([ position['left'], position['top'] + 11 ])
     });
     for (var i = 0; i < navPositions.length; i++) {
@@ -436,6 +439,7 @@ var drawNavDots = function() {
         }
         drawCircle(navPositions[i]);
     }
+    ctx.restore()
 }
 
 // drawBackground();
@@ -462,8 +466,8 @@ var proceed = function() {
     pointA = point;
     pointB = choosePoint(points[pointA]);
     drawLine(xy(pointA),xy(pointB));
-    drawCircle(xy(pointA));
-    drawCircle(xy(pointB));
+//    drawCircle(xy(pointA));
+//    drawCircle(xy(pointB));
     point = pointB;
 };
 
