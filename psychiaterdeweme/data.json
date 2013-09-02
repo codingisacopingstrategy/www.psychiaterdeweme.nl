@@ -1,0 +1,678 @@
+[
+  {
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "contenttype", 
+      "name": "content type", 
+      "app_label": "contenttypes"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "group", 
+      "name": "group", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "logentry", 
+      "name": "log entry", 
+      "app_label": "admin"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "message", 
+      "name": "message", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "page", 
+      "name": "page", 
+      "app_label": "wiki"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "permission", 
+      "name": "permission", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "session", 
+      "name": "session", 
+      "app_label": "sessions"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "site", 
+      "name": "site", 
+      "app_label": "sites"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "user", 
+      "name": "user", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": "5f27a385eb218b1cdb786976d394741a", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2011-08-10T10:23:44.806", 
+      "session_data": "NWYxMTZhYWQ4YTRiMDY0ZmE0YzcwZGFlZmQ1MjNiMjI2NTliNjBlNTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
+    }
+  }, 
+  {
+    "pk": "602c652b7bb23337592999f51f962168", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2011-10-26T11:01:25.638", 
+      "session_data": "NWYxMTZhYWQ4YTRiMDY0ZmE0YzcwZGFlZmQ1MjNiMjI2NTliNjBlNTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
+    }
+  }, 
+  {
+    "pk": "6e4c5d1f295dc895ad861217ce27487a", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2011-11-07T14:16:17.883", 
+      "session_data": "NGUzMmM4M2VjYjBjYWQ0NzYwMmM3MDdmZmQzMDlmYWUxZDVlZmNiOTqAAn1xAS4=\n"
+    }
+  }, 
+  {
+    "pk": "a463153946ca23992bc1bd1c1e99d932", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2011-11-07T14:43:32.215", 
+      "session_data": "NGUzMmM4M2VjYjBjYWQ0NzYwMmM3MDdmZmQzMDlmYWUxZDVlZmNiOTqAAn1xAS4=\n"
+    }
+  }, 
+  {
+    "pk": "af2fcbcd427d1f7e48a29973b7ef1fce", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2011-11-12T12:12:33.843", 
+      "session_data": "NWYxMTZhYWQ4YTRiMDY0ZmE0YzcwZGFlZmQ1MjNiMjI2NTliNjBlNTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "example.com", 
+      "name": "example.com"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<p>Mevrouw De Weme, psychiater is sinds 1999 als Zelfstandig Gevestigd Psychiater (ZGP) werkzaam in haar praktijk in Hoofddorp.</p>\r\n<p>Zij is lid van de Nederlandse Vereniging voor Psychiatrie, met interne aantekening ouderenpsychiatrie en volwassenenpsychiatrie,&nbsp; de&nbsp;Vereniging voor Gedragstherapie en Cognitieve therapie en het netwerk ADHD bij volwassenen. Zij is ook lid van de regionale vereniging van Zelfstandig Gevestigde Psychiaters Zuid-Holland Noord &amp; Amstelland en de Meerlanden.</p>\r\n<p>De praktijk is een algemene praktijk voor ambulante behandeling van psychiatrische aandoeningen.</p>\r\n<p>Speciale aandachtsgebieden zijn Ouderenpsychiatrie, de combinatie van ziekten als hart en vaatziekten, CVA of Parkinson met psychiatrische aandoeningen en <br />ADHD bij volwassenen.</p>\r\n<p>De behandeling kan ook in het engels, frans of duits uitgevoerd worden.</p>\r\n<p>&nbsp;</p>\r\n<p>Een ZGP is een psychiater, die zelfstandig een praktijk voert en niet verbonden is aan een instelling. De pati&euml;nt heeft voor de intake en de behandeling, zowel voor medicatie als gesprekstherapie dezelfde arts. Men werkt wel samen in een soort netwerk met andere psychiaters, psychologen en psychotherapeuten. Er is ook contact met huisartsen, specialisten in het ziekenhuis of medewerkers van een GGZ instelling, indien dit meerwaarde heeft. Een ZGP is een medisch specialist, die als zodanig BIG geregistreerd is en onder de tuchtrechtspraak valt. De ZGP van Amstel en Meerlanden zorgen gezamenlijk voor waarneming, verwijzing voor speciale deskundigheid en intervisie. De klachtencommissie is gemeenschappelijk met de ZGP van Kennemerland en Zuid-Holland Noord.</p>", 
+      "rendered": "<<a href=\"/p/\">p</a>><a href=\"/Mevrouw/\">Mevrouw</a> <a href=\"/De/\">De</a> <a href=\"/Weme/\">Weme</a>, <a href=\"/psychiater/\">psychiater</a> <a href=\"/is/\">is</a> <a href=\"/sinds/\">sinds</a> 1999 <a href=\"/als/\">als</a> <a href=\"/Zelfstandig/\">Zelfstandig</a> <a href=\"/Gevestigd/\">Gevestigd</a> <a href=\"/Psychiater/\">Psychiater</a> (<a href=\"/ZGP/\">ZGP</a>) <a href=\"/werkzaam/\">werkzaam</a> <a href=\"/in/\">in</a> <a href=\"/haar/\">haar</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/in/\">in</a> <a href=\"/Hoofddorp/\">Hoofddorp</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Zij/\">Zij</a> <a href=\"/is/\">is</a> <a href=\"/lid/\">lid</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/Nederlandse/\">Nederlandse</a> <a href=\"/Vereniging/\">Vereniging</a> <a href=\"/voor/\">voor</a> <a href=\"/Psychiatrie/\">Psychiatrie</a>, <a href=\"/met/\">met</a> <a href=\"/interne/\">interne</a> <a href=\"/aantekening/\">aantekening</a> <a href=\"/ouderenpsychiatrie/\">ouderenpsychiatrie</a> <a href=\"/en/\">en</a> <a href=\"/volwassenenpsychiatrie/\">volwassenenpsychiatrie</a>,&<a href=\"/nbsp/\">nbsp</a>; <a href=\"/de/\">de</a>&<a href=\"/nbsp/\">nbsp</a>;<a href=\"/Vereniging/\">Vereniging</a> <a href=\"/voor/\">voor</a> <a href=\"/Gedragstherapie/\">Gedragstherapie</a> <a href=\"/en/\">en</a> <a href=\"/Cognitieve/\">Cognitieve</a> <a href=\"/therapie/\">therapie</a> <a href=\"/en/\">en</a> <a href=\"/het/\">het</a> <a href=\"/netwerk/\">netwerk</a> <a href=\"/ADHD/\">ADHD</a> <a href=\"/bij/\">bij</a> <a href=\"/volwassenen/\">volwassenen</a>. <a href=\"/Zij/\">Zij</a> <a href=\"/is/\">is</a> <a href=\"/ook/\">ook</a> <a href=\"/lid/\">lid</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/regionale/\">regionale</a> <a href=\"/vereniging/\">vereniging</a> <a href=\"/van/\">van</a> <a href=\"/Zelfstandig/\">Zelfstandig</a> <a href=\"/Gevestigde/\">Gevestigde</a> <a href=\"/Psychiaters/\">Psychiaters</a> <a href=\"/Zuid/\">Zuid</a>-<a href=\"/Holland/\">Holland</a> <a href=\"/Noord/\">Noord</a> &<a href=\"/amp/\">amp</a>; <a href=\"/Amstelland/\">Amstelland</a> <a href=\"/en/\">en</a> <a href=\"/de/\">de</a> <a href=\"/Meerlanden/\">Meerlanden</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/De/\">De</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/is/\">is</a> <a href=\"/een/\">een</a> <a href=\"/algemene/\">algemene</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/voor/\">voor</a> <a href=\"/ambulante/\">ambulante</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/van/\">van</a> <a href=\"/psychiatrische/\">psychiatrische</a> <a href=\"/aandoeningen/\">aandoeningen</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Speciale/\">Speciale</a> <a href=\"/aandachtsgebieden/\">aandachtsgebieden</a> <a href=\"/zijn/\">zijn</a> <a href=\"/Ouderenpsychiatrie/\">Ouderenpsychiatrie</a>, <a href=\"/de/\">de</a> <a href=\"/combinatie/\">combinatie</a> <a href=\"/van/\">van</a> <a href=\"/ziekten/\">ziekten</a> <a href=\"/als/\">als</a> <a href=\"/hart/\">hart</a> <a href=\"/en/\">en</a> <a href=\"/vaatziekten/\">vaatziekten</a>, <a href=\"/CVA/\">CVA</a> <a href=\"/of/\">of</a> <a href=\"/Parkinson/\">Parkinson</a> <a href=\"/met/\">met</a> <a href=\"/psychiatrische/\">psychiatrische</a> <a href=\"/aandoeningen/\">aandoeningen</a> <a href=\"/en/\">en</a> <<a href=\"/br/\">br</a> /><a href=\"/ADHD/\">ADHD</a> <a href=\"/bij/\">bij</a> <a href=\"/volwassenen/\">volwassenen</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/De/\">De</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/kan/\">kan</a> <a href=\"/ook/\">ook</a> <a href=\"/in/\">in</a> <a href=\"/het/\">het</a> <a href=\"/engels/\">engels</a>, <a href=\"/frans/\">frans</a> <a href=\"/of/\">of</a> <a href=\"/duits/\">duits</a> <a href=\"/uitgevoerd/\">uitgevoerd</a> <a href=\"/worden/\">worden</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Een/\">Een</a> <a href=\"/ZGP/\">ZGP</a> <a href=\"/is/\">is</a> <a href=\"/een/\">een</a> <a href=\"/psychiater/\">psychiater</a>, <a href=\"/die/\">die</a> <a href=\"/zelfstandig/\">zelfstandig</a> <a href=\"/een/\">een</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/voert/\">voert</a> <a href=\"/en/\">en</a> <a href=\"/niet/\">niet</a> <a href=\"/verbonden/\">verbonden</a> <a href=\"/is/\">is</a> <a href=\"/aan/\">aan</a> <a href=\"/een/\">een</a> <a href=\"/instelling/\">instelling</a>. <a href=\"/De/\">De</a> <a href=\"/pati/\">pati</a>&<a href=\"/euml/\">euml</a>;<a href=\"/nt/\">nt</a> <a href=\"/heeft/\">heeft</a> <a href=\"/voor/\">voor</a> <a href=\"/de/\">de</a> <a href=\"/intake/\">intake</a> <a href=\"/en/\">en</a> <a href=\"/de/\">de</a> <a href=\"/behandeling/\">behandeling</a>, <a href=\"/zowel/\">zowel</a> <a href=\"/voor/\">voor</a> <a href=\"/medicatie/\">medicatie</a> <a href=\"/als/\">als</a> <a href=\"/gesprekstherapie/\">gesprekstherapie</a> <a href=\"/dezelfde/\">dezelfde</a> <a href=\"/arts/\">arts</a>. <a href=\"/Men/\">Men</a> <a href=\"/werkt/\">werkt</a> <a href=\"/wel/\">wel</a> <a href=\"/samen/\">samen</a> <a href=\"/in/\">in</a> <a href=\"/een/\">een</a> <a href=\"/soort/\">soort</a> <a href=\"/netwerk/\">netwerk</a> <a href=\"/met/\">met</a> <a href=\"/andere/\">andere</a> <a href=\"/psychiaters/\">psychiaters</a>, <a href=\"/psychologen/\">psychologen</a> <a href=\"/en/\">en</a> <a href=\"/psychotherapeuten/\">psychotherapeuten</a>. <a href=\"/Er/\">Er</a> <a href=\"/is/\">is</a> <a href=\"/ook/\">ook</a> <a href=\"/contact/\">contact</a> <a href=\"/met/\">met</a> <a href=\"/huisartsen/\">huisartsen</a>, <a href=\"/specialisten/\">specialisten</a> <a href=\"/in/\">in</a> <a href=\"/het/\">het</a> <a href=\"/ziekenhuis/\">ziekenhuis</a> <a href=\"/of/\">of</a> <a href=\"/medewerkers/\">medewerkers</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/GGZ/\">GGZ</a> <a href=\"/instelling/\">instelling</a>, <a href=\"/indien/\">indien</a> <a href=\"/dit/\">dit</a> <a href=\"/meerwaarde/\">meerwaarde</a> <a href=\"/heeft/\">heeft</a>. <a href=\"/Een/\">Een</a> <a href=\"/ZGP/\">ZGP</a> <a href=\"/is/\">is</a> <a href=\"/een/\">een</a> <a href=\"/medisch/\">medisch</a> <a href=\"/specialist/\">specialist</a>, <a href=\"/die/\">die</a> <a href=\"/als/\">als</a> <a href=\"/zodanig/\">zodanig</a> <a href=\"/BIG/\">BIG</a> <a href=\"/geregistreerd/\">geregistreerd</a> <a href=\"/is/\">is</a> <a href=\"/en/\">en</a> <a href=\"/onder/\">onder</a> <a href=\"/de/\">de</a> <a href=\"/tuchtrechtspraak/\">tuchtrechtspraak</a> <a href=\"/valt/\">valt</a>. <a href=\"/De/\">De</a> <a href=\"/ZGP/\">ZGP</a> <a href=\"/van/\">van</a> <a href=\"/Amstel/\">Amstel</a> <a href=\"/en/\">en</a> <a href=\"/Meerlanden/\">Meerlanden</a> <a href=\"/zorgen/\">zorgen</a> <a href=\"/gezamenlijk/\">gezamenlijk</a> <a href=\"/voor/\">voor</a> <a href=\"/waarneming/\">waarneming</a>, <a href=\"/verwijzing/\">verwijzing</a> <a href=\"/voor/\">voor</a> <a href=\"/speciale/\">speciale</a> <a href=\"/deskundigheid/\">deskundigheid</a> <a href=\"/en/\">en</a> <a href=\"/intervisie/\">intervisie</a>. <a href=\"/De/\">De</a> <a href=\"/klachtencommissie/\">klachtencommissie</a> <a href=\"/is/\">is</a> <a href=\"/gemeenschappelijk/\">gemeenschappelijk</a> <a href=\"/met/\">met</a> <a href=\"/de/\">de</a> <a href=\"/ZGP/\">ZGP</a> <a href=\"/van/\">van</a> <a href=\"/Kennemerland/\">Kennemerland</a> <a href=\"/en/\">en</a> <a href=\"/Zuid/\">Zuid</a>-<a href=\"/Holland/\">Holland</a> <a href=\"/Noord/\">Noord</a>.</<a href=\"/p/\">p</a>>", 
+      "visible_in_nav": true, 
+      "name": "Introductie", 
+      "order": 0
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<p><em>Aanmelding</em></p>\r\n<p>U kunt zich, op schriftelijke verwijzing door uw huisarts of specialist, telefonisch aanmelden op 023-5614346. Schriftelijk of per e- mail aanmelden voor een intake is ook mogelijk. Voor overleg is mevrouw De Weme telefonisch bereikbaar via 06-24712776, tussen 12.30 en 13.00 uur, of tussen 16.30 en 17.00 uur.</p>\r\n<p><em>Kosten</em></p>\r\n<p>De behandeling wordt vergoed door de zorgverzekering.</p>\r\n<p>Er is een contract met alle zorgverzekeraars,&nbsp;zij ontvangen de nota. Afrekening vindt plaats via het systeem van Diagnose Behandel Combinaties (DBC). De verzekering krijgt informatie over de diagnose, de behandeling en de tijd die hiervoor nodig was. Een DBC mag maximaal een jaar duren, hierna kan een vervolg DBC geopend worden. Per 2012 moet er voor een DBC in de psychiatrie&nbsp;een eigen bijdrage van 100 euro ( bij een DBC korter dan 100 minuten) of 200 euro betaald worden. Tegen deze maatregel, die door pati&euml;nten en psychiaters als discriminerend wordt ervaren, lopen nog juridische procedures. Deze eigen bijdrage komt bovenop het algemene eigen risico van 220 euro, voor gebruik van medische zorg. Waarschijnlijk gaan de verzekeraars de eigen bijdrage innnen.</p>", 
+      "rendered": "<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Aanmelding/\">Aanmelding</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/U/\">U</a> <a href=\"/kunt/\">kunt</a> <a href=\"/zich/\">zich</a>, <a href=\"/op/\">op</a> <a href=\"/schriftelijke/\">schriftelijke</a> <a href=\"/verwijzing/\">verwijzing</a> <a href=\"/door/\">door</a> <a href=\"/uw/\">uw</a> <a href=\"/huisarts/\">huisarts</a> <a href=\"/of/\">of</a> <a href=\"/specialist/\">specialist</a>, <a href=\"/telefonisch/\">telefonisch</a> <a href=\"/aanmelden/\">aanmelden</a> <a href=\"/op/\">op</a> 023-5614346. <a href=\"/Schriftelijk/\">Schriftelijk</a> <a href=\"/of/\">of</a> <a href=\"/per/\">per</a> <a href=\"/e/\">e</a>- <a href=\"/mail/\">mail</a> <a href=\"/aanmelden/\">aanmelden</a> <a href=\"/voor/\">voor</a> <a href=\"/een/\">een</a> <a href=\"/intake/\">intake</a> <a href=\"/is/\">is</a> <a href=\"/ook/\">ook</a> <a href=\"/mogelijk/\">mogelijk</a>. <a href=\"/Voor/\">Voor</a> <a href=\"/overleg/\">overleg</a> <a href=\"/is/\">is</a> <a href=\"/mevrouw/\">mevrouw</a> <a href=\"/De/\">De</a> <a href=\"/Weme/\">Weme</a> <a href=\"/telefonisch/\">telefonisch</a> <a href=\"/bereikbaar/\">bereikbaar</a> <a href=\"/via/\">via</a> 06-24712776, <a href=\"/tussen/\">tussen</a> 12.30 <a href=\"/en/\">en</a> 13.00 <a href=\"/uur/\">uur</a>, <a href=\"/of/\">of</a> <a href=\"/tussen/\">tussen</a> 16.30 <a href=\"/en/\">en</a> 17.00 <a href=\"/uur/\">uur</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Kosten/\">Kosten</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/De/\">De</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/wordt/\">wordt</a> <a href=\"/vergoed/\">vergoed</a> <a href=\"/door/\">door</a> <a href=\"/de/\">de</a> <a href=\"/zorgverzekering/\">zorgverzekering</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Er/\">Er</a> <a href=\"/is/\">is</a> <a href=\"/een/\">een</a> <a href=\"/contract/\">contract</a> <a href=\"/met/\">met</a> <a href=\"/alle/\">alle</a> <a href=\"/zorgverzekeraars/\">zorgverzekeraars</a>,&<a href=\"/nbsp/\">nbsp</a>;<a href=\"/zij/\">zij</a> <a href=\"/ontvangen/\">ontvangen</a> <a href=\"/de/\">de</a> <a href=\"/nota/\">nota</a>. <a href=\"/Afrekening/\">Afrekening</a> <a href=\"/vindt/\">vindt</a> <a href=\"/plaats/\">plaats</a> <a href=\"/via/\">via</a> <a href=\"/het/\">het</a> <a href=\"/systeem/\">systeem</a> <a href=\"/van/\">van</a> <a href=\"/Diagnose/\">Diagnose</a> <a href=\"/Behandel/\">Behandel</a> <a href=\"/Combinaties/\">Combinaties</a> (<a href=\"/DBC/\">DBC</a>). <a href=\"/De/\">De</a> <a href=\"/verzekering/\">verzekering</a> <a href=\"/krijgt/\">krijgt</a> <a href=\"/informatie/\">informatie</a> <a href=\"/over/\">over</a> <a href=\"/de/\">de</a> <a href=\"/diagnose/\">diagnose</a>, <a href=\"/de/\">de</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/en/\">en</a> <a href=\"/de/\">de</a> <a href=\"/tijd/\">tijd</a> <a href=\"/die/\">die</a> <a href=\"/hiervoor/\">hiervoor</a> <a href=\"/nodig/\">nodig</a> <a href=\"/was/\">was</a>. <a href=\"/Een/\">Een</a> <a href=\"/DBC/\">DBC</a> <a href=\"/mag/\">mag</a> <a href=\"/maximaal/\">maximaal</a> <a href=\"/een/\">een</a> <a href=\"/jaar/\">jaar</a> <a href=\"/duren/\">duren</a>, <a href=\"/hierna/\">hierna</a> <a href=\"/kan/\">kan</a> <a href=\"/een/\">een</a> <a href=\"/vervolg/\">vervolg</a> <a href=\"/DBC/\">DBC</a> <a href=\"/geopend/\">geopend</a> <a href=\"/worden/\">worden</a>. <a href=\"/Per/\">Per</a> 2012 <a href=\"/moet/\">moet</a> <a href=\"/er/\">er</a> <a href=\"/voor/\">voor</a> <a href=\"/een/\">een</a> <a href=\"/DBC/\">DBC</a> <a href=\"/in/\">in</a> <a href=\"/de/\">de</a> <a href=\"/psychiatrie/\">psychiatrie</a>&<a href=\"/nbsp/\">nbsp</a>;<a href=\"/een/\">een</a> <a href=\"/eigen/\">eigen</a> <a href=\"/bijdrage/\">bijdrage</a> <a href=\"/van/\">van</a> 100 <a href=\"/euro/\">euro</a> ( <a href=\"/bij/\">bij</a> <a href=\"/een/\">een</a> <a href=\"/DBC/\">DBC</a> <a href=\"/korter/\">korter</a> <a href=\"/dan/\">dan</a> 100 <a href=\"/minuten/\">minuten</a>) <a href=\"/of/\">of</a> 200 <a href=\"/euro/\">euro</a> <a href=\"/betaald/\">betaald</a> <a href=\"/worden/\">worden</a>. <a href=\"/Tegen/\">Tegen</a> <a href=\"/deze/\">deze</a> <a href=\"/maatregel/\">maatregel</a>, <a href=\"/die/\">die</a> <a href=\"/door/\">door</a> <a href=\"/pati/\">pati</a>&<a href=\"/euml/\">euml</a>;<a href=\"/nten/\">nten</a> <a href=\"/en/\">en</a> <a href=\"/psychiaters/\">psychiaters</a> <a href=\"/als/\">als</a> <a href=\"/discriminerend/\">discriminerend</a> <a href=\"/wordt/\">wordt</a> <a href=\"/ervaren/\">ervaren</a>, <a href=\"/lopen/\">lopen</a> <a href=\"/nog/\">nog</a> <a href=\"/juridische/\">juridische</a> <a href=\"/procedures/\">procedures</a>. <a href=\"/Deze/\">Deze</a> <a href=\"/eigen/\">eigen</a> <a href=\"/bijdrage/\">bijdrage</a> <a href=\"/komt/\">komt</a> <a href=\"/bovenop/\">bovenop</a> <a href=\"/het/\">het</a> <a href=\"/algemene/\">algemene</a> <a href=\"/eigen/\">eigen</a> <a href=\"/risico/\">risico</a> <a href=\"/van/\">van</a> 220 <a href=\"/euro/\">euro</a>, <a href=\"/voor/\">voor</a> <a href=\"/gebruik/\">gebruik</a> <a href=\"/van/\">van</a> <a href=\"/medische/\">medische</a> <a href=\"/zorg/\">zorg</a>. <a href=\"/Waarschijnlijk/\">Waarschijnlijk</a> <a href=\"/gaan/\">gaan</a> <a href=\"/de/\">de</a> <a href=\"/verzekeraars/\">verzekeraars</a> <a href=\"/de/\">de</a> <a href=\"/eigen/\">eigen</a> <a href=\"/bijdrage/\">bijdrage</a> <a href=\"/innnen/\">innnen</a>.</<a href=\"/p/\">p</a>>", 
+      "visible_in_nav": true, 
+      "name": "Aanmelding", 
+      "order": 1
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<p><em>Intake</em></p>\r\n<p>Voor de start van de behandeling vindt eerst een intake plaats. In twee gesprekken worden de klachten in kaart gebracht, evenals de sociale omstandigheden, de lichamelijke gezondheid en het levensverhaal. Al deze omstandigheden kunnen immers de klachten veroorzaken of in stand houden. Gesprekken met de partner, familieleden of andere betrokkenen zijn ook mogelijk. Er is, na uw toestemming, meestal overleg met uw huisarts, deze ontvangt daarna ook een intakebrief, waarin ook het behandelplan opgenomen is.</p>\r\n<p><em>Behandelplan</em></p>\r\n<p>Wij stellen gezamenlijk een behandelplan op. Dit plan beschrijft wat er aan de hand is, wat&nbsp; het doel van de behandeling is en de manier waarop dit doel bereikt kan worden.</p>\r\n<p><em>Behandeling</em></p>\r\n<p>Het begin van de behandeling is verdere uitleg over de klachten. Hierbij kunnen ook folders, boeken of internet&nbsp;nuttig zijn. Vaak is het nodig de klachten en de omstandigheden die er voor zorgen dat de klachten blijven bestaan, nog meer uit te zoeken. Hiervoor kunt u ook huiswerk krijgen, zoals het bijhouden van een dagboekje of het registreren van klachten. De behandeling bestaat uit gesprekstherapie, op indicatie&nbsp;in combinatie met medicatie. Ook kunnen adviezen en leefregels gegeven worden. De gehanteerde therapievorm is vaak <a href=\"http://www.psychotherapie.nl/\" target=\"_blank\">&lsquo;cognitieve gedragstherapie&rsquo;</a> . In deze klachtgerichte therapie leert men door anders te denken en te oefenen met moeilijke situaties de klachten te verminderen.</p>\r\n<p><em>Ontspanningsoefeningen</em></p>\r\n<p>Soms zult u voor uw behandeling het advies krijgen ontspanningsoefeningen te doen. Hier kunt u een geluidsbestand met een ontspanningsoefening downloaden.<br /><a href=\"../../static/ontspanningsoefening.mp3\" target=\"_blank\">ontspanningsoefening (mp3)</a><br />Gebruik de rechtermuisknop om het bestand eventueel op te slaan.</p>\r\n<p>Lichttherapie</p>\r\n<p>De behandeling van een winterdepressie, <span style=\"text-decoration: underline;\">lichttherapie</span>, kan ook in de praktijk plaatsvinden.</p>\r\n<p><em>Klachten</em></p>\r\n<p>Als u klachten over de behandeling&nbsp;heeft, aarzel dan niet die te bespreken. De praktijk is aangesloten bij de klachtencommissie van de Vereniging van Zelfstandig gevestigde psychiaters van Zuid-Holland Noord en Amstel- en Meerlanden. Hier vindt u het \"klachtenreglement\".</p>\r\n<p>&nbsp;</p>", 
+      "rendered": "<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Intake/\">Intake</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Voor/\">Voor</a> <a href=\"/de/\">de</a> <a href=\"/start/\">start</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/vindt/\">vindt</a> <a href=\"/eerst/\">eerst</a> <a href=\"/een/\">een</a> <a href=\"/intake/\">intake</a> <a href=\"/plaats/\">plaats</a>. <a href=\"/In/\">In</a> <a href=\"/twee/\">twee</a> <a href=\"/gesprekken/\">gesprekken</a> <a href=\"/worden/\">worden</a> <a href=\"/de/\">de</a> <a href=\"/klachten/\">klachten</a> <a href=\"/in/\">in</a> <a href=\"/kaart/\">kaart</a> <a href=\"/gebracht/\">gebracht</a>, <a href=\"/evenals/\">evenals</a> <a href=\"/de/\">de</a> <a href=\"/sociale/\">sociale</a> <a href=\"/omstandigheden/\">omstandigheden</a>, <a href=\"/de/\">de</a> <a href=\"/lichamelijke/\">lichamelijke</a> <a href=\"/gezondheid/\">gezondheid</a> <a href=\"/en/\">en</a> <a href=\"/het/\">het</a> <a href=\"/levensverhaal/\">levensverhaal</a>. <a href=\"/Al/\">Al</a> <a href=\"/deze/\">deze</a> <a href=\"/omstandigheden/\">omstandigheden</a> <a href=\"/kunnen/\">kunnen</a> <a href=\"/immers/\">immers</a> <a href=\"/de/\">de</a> <a href=\"/klachten/\">klachten</a> <a href=\"/veroorzaken/\">veroorzaken</a> <a href=\"/of/\">of</a> <a href=\"/in/\">in</a> <a href=\"/stand/\">stand</a> <a href=\"/houden/\">houden</a>. <a href=\"/Gesprekken/\">Gesprekken</a> <a href=\"/met/\">met</a> <a href=\"/de/\">de</a> <a href=\"/partner/\">partner</a>, <a href=\"/familieleden/\">familieleden</a> <a href=\"/of/\">of</a> <a href=\"/andere/\">andere</a> <a href=\"/betrokkenen/\">betrokkenen</a> <a href=\"/zijn/\">zijn</a> <a href=\"/ook/\">ook</a> <a href=\"/mogelijk/\">mogelijk</a>. <a href=\"/Er/\">Er</a> <a href=\"/is/\">is</a>, <a href=\"/na/\">na</a> <a href=\"/uw/\">uw</a> <a href=\"/toestemming/\">toestemming</a>, <a href=\"/meestal/\">meestal</a> <a href=\"/overleg/\">overleg</a> <a href=\"/met/\">met</a> <a href=\"/uw/\">uw</a> <a href=\"/huisarts/\">huisarts</a>, <a href=\"/deze/\">deze</a> <a href=\"/ontvangt/\">ontvangt</a> <a href=\"/daarna/\">daarna</a> <a href=\"/ook/\">ook</a> <a href=\"/een/\">een</a> <a href=\"/intakebrief/\">intakebrief</a>, <a href=\"/waarin/\">waarin</a> <a href=\"/ook/\">ook</a> <a href=\"/het/\">het</a> <a href=\"/behandelplan/\">behandelplan</a> <a href=\"/opgenomen/\">opgenomen</a> <a href=\"/is/\">is</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Behandelplan/\">Behandelplan</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Wij/\">Wij</a> <a href=\"/stellen/\">stellen</a> <a href=\"/gezamenlijk/\">gezamenlijk</a> <a href=\"/een/\">een</a> <a href=\"/behandelplan/\">behandelplan</a> <a href=\"/op/\">op</a>. <a href=\"/Dit/\">Dit</a> <a href=\"/plan/\">plan</a> <a href=\"/beschrijft/\">beschrijft</a> <a href=\"/wat/\">wat</a> <a href=\"/er/\">er</a> <a href=\"/aan/\">aan</a> <a href=\"/de/\">de</a> <a href=\"/hand/\">hand</a> <a href=\"/is/\">is</a>, <a href=\"/wat/\">wat</a>&<a href=\"/nbsp/\">nbsp</a>; <a href=\"/het/\">het</a> <a href=\"/doel/\">doel</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/is/\">is</a> <a href=\"/en/\">en</a> <a href=\"/de/\">de</a> <a href=\"/manier/\">manier</a> <a href=\"/waarop/\">waarop</a> <a href=\"/dit/\">dit</a> <a href=\"/doel/\">doel</a> <a href=\"/bereikt/\">bereikt</a> <a href=\"/kan/\">kan</a> <a href=\"/worden/\">worden</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Behandeling/\">Behandeling</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Het/\">Het</a> <a href=\"/begin/\">begin</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/is/\">is</a> <a href=\"/verdere/\">verdere</a> <a href=\"/uitleg/\">uitleg</a> <a href=\"/over/\">over</a> <a href=\"/de/\">de</a> <a href=\"/klachten/\">klachten</a>. <a href=\"/Hierbij/\">Hierbij</a> <a href=\"/kunnen/\">kunnen</a> <a href=\"/ook/\">ook</a> <a href=\"/folders/\">folders</a>, <a href=\"/boeken/\">boeken</a> <a href=\"/of/\">of</a> <a href=\"/internet/\">internet</a>&<a href=\"/nbsp/\">nbsp</a>;<a href=\"/nuttig/\">nuttig</a> <a href=\"/zijn/\">zijn</a>. <a href=\"/Vaak/\">Vaak</a> <a href=\"/is/\">is</a> <a href=\"/het/\">het</a> <a href=\"/nodig/\">nodig</a> <a href=\"/de/\">de</a> <a href=\"/klachten/\">klachten</a> <a href=\"/en/\">en</a> <a href=\"/de/\">de</a> <a href=\"/omstandigheden/\">omstandigheden</a> <a href=\"/die/\">die</a> <a href=\"/er/\">er</a> <a href=\"/voor/\">voor</a> <a href=\"/zorgen/\">zorgen</a> <a href=\"/dat/\">dat</a> <a href=\"/de/\">de</a> <a href=\"/klachten/\">klachten</a> <a href=\"/blijven/\">blijven</a> <a href=\"/bestaan/\">bestaan</a>, <a href=\"/nog/\">nog</a> <a href=\"/meer/\">meer</a> <a href=\"/uit/\">uit</a> <a href=\"/te/\">te</a> <a href=\"/zoeken/\">zoeken</a>. <a href=\"/Hiervoor/\">Hiervoor</a> <a href=\"/kunt/\">kunt</a> <a href=\"/u/\">u</a> <a href=\"/ook/\">ook</a> <a href=\"/huiswerk/\">huiswerk</a> <a href=\"/krijgen/\">krijgen</a>, <a href=\"/zoals/\">zoals</a> <a href=\"/het/\">het</a> <a href=\"/bijhouden/\">bijhouden</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/dagboekje/\">dagboekje</a> <a href=\"/of/\">of</a> <a href=\"/het/\">het</a> <a href=\"/registreren/\">registreren</a> <a href=\"/van/\">van</a> <a href=\"/klachten/\">klachten</a>. <a href=\"/De/\">De</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/bestaat/\">bestaat</a> <a href=\"/uit/\">uit</a> <a href=\"/gesprekstherapie/\">gesprekstherapie</a>, <a href=\"/op/\">op</a> <a href=\"/indicatie/\">indicatie</a>&<a href=\"/nbsp/\">nbsp</a>;<a href=\"/in/\">in</a> <a href=\"/combinatie/\">combinatie</a> <a href=\"/met/\">met</a> <a href=\"/medicatie/\">medicatie</a>. <a href=\"/Ook/\">Ook</a> <a href=\"/kunnen/\">kunnen</a> <a href=\"/adviezen/\">adviezen</a> <a href=\"/en/\">en</a> <a href=\"/leefregels/\">leefregels</a> <a href=\"/gegeven/\">gegeven</a> <a href=\"/worden/\">worden</a>. <a href=\"/De/\">De</a> <a href=\"/gehanteerde/\">gehanteerde</a> <a href=\"/therapievorm/\">therapievorm</a> <a href=\"/is/\">is</a> <a href=\"/vaak/\">vaak</a> <<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/http/\">http</a>://<a href=\"/www/\">www</a>.<a href=\"/psychotherapie/\">psychotherapie</a>.<a href=\"/nl/\">nl</a>/\" <a href=\"/target/\">target</a>=\"_blank\">&<a href=\"/lsquo/\">lsquo</a>;<a href=\"/cognitieve/\">cognitieve</a> <a href=\"/gedragstherapie/\">gedragstherapie</a>&<a href=\"/rsquo/\">rsquo</a>;</<a href=\"/a/\">a</a>> . <a href=\"/In/\">In</a> <a href=\"/deze/\">deze</a> <a href=\"/klachtgerichte/\">klachtgerichte</a> <a href=\"/therapie/\">therapie</a> <a href=\"/leert/\">leert</a> <a href=\"/men/\">men</a> <a href=\"/door/\">door</a> <a href=\"/anders/\">anders</a> <a href=\"/te/\">te</a> <a href=\"/denken/\">denken</a> <a href=\"/en/\">en</a> <a href=\"/te/\">te</a> <a href=\"/oefenen/\">oefenen</a> <a href=\"/met/\">met</a> <a href=\"/moeilijke/\">moeilijke</a> <a href=\"/situaties/\">situaties</a> <a href=\"/de/\">de</a> <a href=\"/klachten/\">klachten</a> <a href=\"/te/\">te</a> <a href=\"/verminderen/\">verminderen</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Ontspanningsoefeningen/\">Ontspanningsoefeningen</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Soms/\">Soms</a> <a href=\"/zult/\">zult</a> <a href=\"/u/\">u</a> <a href=\"/voor/\">voor</a> <a href=\"/uw/\">uw</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/het/\">het</a> <a href=\"/advies/\">advies</a> <a href=\"/krijgen/\">krijgen</a> <a href=\"/ontspanningsoefeningen/\">ontspanningsoefeningen</a> <a href=\"/te/\">te</a> <a href=\"/doen/\">doen</a>. <a href=\"/Hier/\">Hier</a> <a href=\"/kunt/\">kunt</a> <a href=\"/u/\">u</a> <a href=\"/een/\">een</a> <a href=\"/geluidsbestand/\">geluidsbestand</a> <a href=\"/met/\">met</a> <a href=\"/een/\">een</a> <a href=\"/ontspanningsoefening/\">ontspanningsoefening</a> <a href=\"/downloaden/\">downloaden</a>.<<a href=\"/br/\">br</a> /><<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"../../<a href=\"/static/\">static</a>/<a href=\"/ontspanningsoefening/\">ontspanningsoefening</a>.mp3\" <a href=\"/target/\">target</a>=\"_blank\"><a href=\"/ontspanningsoefening/\">ontspanningsoefening</a> (mp3)</<a href=\"/a/\">a</a>><<a href=\"/br/\">br</a> /><a href=\"/Gebruik/\">Gebruik</a> <a href=\"/de/\">de</a> <a href=\"/rechtermuisknop/\">rechtermuisknop</a> <a href=\"/om/\">om</a> <a href=\"/het/\">het</a> <a href=\"/bestand/\">bestand</a> <a href=\"/eventueel/\">eventueel</a> <a href=\"/op/\">op</a> <a href=\"/te/\">te</a> <a href=\"/slaan/\">slaan</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Lichttherapie/\">Lichttherapie</a></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/De/\">De</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/winterdepressie/\">winterdepressie</a>, <<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/text/\">text</a>-<a href=\"/decoration/\">decoration</a>: <a href=\"/underline/\">underline</a>;\"><a href=\"/lichttherapie/\">lichttherapie</a></<a href=\"/span/\">span</a>>, <a href=\"/kan/\">kan</a> <a href=\"/ook/\">ook</a> <a href=\"/in/\">in</a> <a href=\"/de/\">de</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/plaatsvinden/\">plaatsvinden</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Klachten/\">Klachten</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Als/\">Als</a> <a href=\"/u/\">u</a> <a href=\"/klachten/\">klachten</a> <a href=\"/over/\">over</a> <a href=\"/de/\">de</a> <a href=\"/behandeling/\">behandeling</a>&<a href=\"/nbsp/\">nbsp</a>;<a href=\"/heeft/\">heeft</a>, <a href=\"/aarzel/\">aarzel</a> <a href=\"/dan/\">dan</a> <a href=\"/niet/\">niet</a> <a href=\"/die/\">die</a> <a href=\"/te/\">te</a> <a href=\"/bespreken/\">bespreken</a>. <a href=\"/De/\">De</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/is/\">is</a> <a href=\"/aangesloten/\">aangesloten</a> <a href=\"/bij/\">bij</a> <a href=\"/de/\">de</a> <a href=\"/klachtencommissie/\">klachtencommissie</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/Vereniging/\">Vereniging</a> <a href=\"/van/\">van</a> <a href=\"/Zelfstandig/\">Zelfstandig</a> <a href=\"/gevestigde/\">gevestigde</a> <a href=\"/psychiaters/\">psychiaters</a> <a href=\"/van/\">van</a> <a href=\"/Zuid/\">Zuid</a>-<a href=\"/Holland/\">Holland</a> <a href=\"/Noord/\">Noord</a> <a href=\"/en/\">en</a> <a href=\"/Amstel/\">Amstel</a>- <a href=\"/en/\">en</a> <a href=\"/Meerlanden/\">Meerlanden</a>. <a href=\"/Hier/\">Hier</a> <a href=\"/vindt/\">vindt</a> <a href=\"/u/\">u</a> <a href=\"/het/\">het</a> \"<a href=\"/klachtenreglement/\">klachtenreglement</a>\".</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>", 
+      "visible_in_nav": true, 
+      "name": "Behandeling", 
+      "order": 2
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<div class=\"grid_9\">\r\n<p>&nbsp;</p>\r\n<p><span style=\"font-family: verdana,arial,helvetica,sans-serif; font-size: small;\"><span style=\"font-size: 14pt;\">R.J.C. de Weme, psychiater/psychotherapeut</span>&nbsp;&nbsp;&nbsp;</span></p>\r\n<p><span style=\"font-family: verdana,arial,helvetica,sans-serif; font-size: small;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>\r\n<p><span style=\"font-family: Verdana;\">Manenburgdreef&nbsp;&nbsp;101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;email <span style=\"text-decoration: underline;\">de<a href=\"mailto:deweme@psychiaterdeweme.nl\">weme@psychiaterdeweme.nl</a></span></span></p>\r\n<p><span style=\"font-family: Verdana;\">2131 NB Hoofddorp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<a href=\"http://www.psychiaterdeweme.nl/\">www.psychiaterdeweme.nl</a></span></p>\r\n<p><span style=\"font-family: Verdana;\">tel en fax 0235614346</span></p>\r\n<p><span style=\"font-family: Verdana;\">mob 06-24712776 1230-1300 en 1630-1700</span></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Praktijkinformatie.<br />U kunt mij op werkdagen bereiken tussen 1230 en 1300&nbsp; uur, of tussen 1630 en 1700 uur, op 023-5614346 of 06-24712776, voor overleg, het aanvragen van een recept of het wijzigen van een afspraak. Indien ik telefonisch in gesprek ben, schakelt de telefoon over naar de voicemail.</p>\r\n<p>Email(<a href=\"mailto:deweme@psychiaterdeweme.nl\">deweme@psychiaterdeweme.nl</a>)&nbsp;kunt u&nbsp; gebruiken om informatie door te geven. Buiten de&nbsp; telefonische spreekuurtijden kunt u een boodschap inspreken, waarop ik binnen 24 uur, indien op een werkdag, zal antwoorden. In noodgevallen buiten kantooruren kunt u contact opnemen met de huisartsenpost.<br /><br />Indien u vragen hebt over de behandeling of niet tevreden bent kunt u dit uiteraard bespreken. Indien wij er niet uitkomen, bestaat de mogelijkheid van het indienen van een klacht, bij de regionale klachtencommissie van zelfstandig gevestigde psychiaters.</p>\r\n<p>De praktijk van mevrouw R.J.C. de Weme is gevestigd op Manenburgdreef 101, 2135 GW, &nbsp;in de wijk Toolenburg te Hoofddorp. De praktijk is goed bereikbaar per openbaar vervoer (Zuidtangent halte Toolenburg of buslijn 196 en 296 halte Winkelcentrum Toolenburg) en per auto, er is voldoende&nbsp; parkeerruimte.</p>\r\n<p><a href=\"/kaartje.html\">kaartje</a></p>\r\n<p>&nbsp;</p>\r\n</div>", 
+      "rendered": "<<a href=\"/div/\">div</a> <a href=\"/class/\">class</a>=\"grid_9\">\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/font/\">font</a>-<a href=\"/family/\">family</a>: <a href=\"/verdana/\">verdana</a>,<a href=\"/arial/\">arial</a>,<a href=\"/helvetica/\">helvetica</a>,<a href=\"/sans/\">sans</a>-<a href=\"/serif/\">serif</a>; <a href=\"/font/\">font</a>-<a href=\"/size/\">size</a>: <a href=\"/small/\">small</a>;\"><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/font/\">font</a>-<a href=\"/size/\">size</a>: 14pt;\"><a href=\"/R/\">R</a>.<a href=\"/J/\">J</a>.<a href=\"/C/\">C</a>. <a href=\"/de/\">de</a> <a href=\"/Weme/\">Weme</a>, <a href=\"/psychiater/\">psychiater</a>/<a href=\"/psychotherapeut/\">psychotherapeut</a></<a href=\"/span/\">span</a>>&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/span/\">span</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/font/\">font</a>-<a href=\"/family/\">family</a>: <a href=\"/verdana/\">verdana</a>,<a href=\"/arial/\">arial</a>,<a href=\"/helvetica/\">helvetica</a>,<a href=\"/sans/\">sans</a>-<a href=\"/serif/\">serif</a>; <a href=\"/font/\">font</a>-<a href=\"/size/\">size</a>: <a href=\"/small/\">small</a>;\">&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>; </<a href=\"/span/\">span</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/font/\">font</a>-<a href=\"/family/\">family</a>: <a href=\"/Verdana/\">Verdana</a>;\"><a href=\"/Manenburgdreef/\">Manenburgdreef</a>&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;101&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;<a href=\"/email/\">email</a> <<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/text/\">text</a>-<a href=\"/decoration/\">decoration</a>: <a href=\"/underline/\">underline</a>;\"><a href=\"/de/\">de</a><<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/mailto/\">mailto</a>:<a href=\"/deweme/\">deweme</a>@<a href=\"/psychiaterdeweme/\">psychiaterdeweme</a>.<a href=\"/nl/\">nl</a>\"><a href=\"/weme/\">weme</a>@<a href=\"/psychiaterdeweme/\">psychiaterdeweme</a>.<a href=\"/nl/\">nl</a></<a href=\"/a/\">a</a>></<a href=\"/span/\">span</a>></<a href=\"/span/\">span</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/font/\">font</a>-<a href=\"/family/\">family</a>: <a href=\"/Verdana/\">Verdana</a>;\">2131 <a href=\"/NB/\">NB</a> <a href=\"/Hoofddorp/\">Hoofddorp</a>&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>;&<a href=\"/nbsp/\">nbsp</a>; &<a href=\"/nbsp/\">nbsp</a>;<<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/http/\">http</a>://<a href=\"/www/\">www</a>.<a href=\"/psychiaterdeweme/\">psychiaterdeweme</a>.<a href=\"/nl/\">nl</a>/\"><a href=\"/www/\">www</a>.<a href=\"/psychiaterdeweme/\">psychiaterdeweme</a>.<a href=\"/nl/\">nl</a></<a href=\"/a/\">a</a>></<a href=\"/span/\">span</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/font/\">font</a>-<a href=\"/family/\">family</a>: <a href=\"/Verdana/\">Verdana</a>;\"><a href=\"/tel/\">tel</a> <a href=\"/en/\">en</a> <a href=\"/fax/\">fax</a> 0235614346</<a href=\"/span/\">span</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/font/\">font</a>-<a href=\"/family/\">family</a>: <a href=\"/Verdana/\">Verdana</a>;\"><a href=\"/mob/\">mob</a> 06-24712776 1230-1300 <a href=\"/en/\">en</a> 1630-1700</<a href=\"/span/\">span</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Praktijkinformatie/\">Praktijkinformatie</a>.<<a href=\"/br/\">br</a> /><a href=\"/U/\">U</a> <a href=\"/kunt/\">kunt</a> <a href=\"/mij/\">mij</a> <a href=\"/op/\">op</a> <a href=\"/werkdagen/\">werkdagen</a> <a href=\"/bereiken/\">bereiken</a> <a href=\"/tussen/\">tussen</a> 1230 <a href=\"/en/\">en</a> 1300&<a href=\"/nbsp/\">nbsp</a>; <a href=\"/uur/\">uur</a>, <a href=\"/of/\">of</a> <a href=\"/tussen/\">tussen</a> 1630 <a href=\"/en/\">en</a> 1700 <a href=\"/uur/\">uur</a>, <a href=\"/op/\">op</a> 023-5614346 <a href=\"/of/\">of</a> 06-24712776, <a href=\"/voor/\">voor</a> <a href=\"/overleg/\">overleg</a>, <a href=\"/het/\">het</a> <a href=\"/aanvragen/\">aanvragen</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/recept/\">recept</a> <a href=\"/of/\">of</a> <a href=\"/het/\">het</a> <a href=\"/wijzigen/\">wijzigen</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/afspraak/\">afspraak</a>. <a href=\"/Indien/\">Indien</a> <a href=\"/ik/\">ik</a> <a href=\"/telefonisch/\">telefonisch</a> <a href=\"/in/\">in</a> <a href=\"/gesprek/\">gesprek</a> <a href=\"/ben/\">ben</a>, <a href=\"/schakelt/\">schakelt</a> <a href=\"/de/\">de</a> <a href=\"/telefoon/\">telefoon</a> <a href=\"/over/\">over</a> <a href=\"/naar/\">naar</a> <a href=\"/de/\">de</a> <a href=\"/voicemail/\">voicemail</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Email/\">Email</a>(<<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/mailto/\">mailto</a>:<a href=\"/deweme/\">deweme</a>@<a href=\"/psychiaterdeweme/\">psychiaterdeweme</a>.<a href=\"/nl/\">nl</a>\"><a href=\"/deweme/\">deweme</a>@<a href=\"/psychiaterdeweme/\">psychiaterdeweme</a>.<a href=\"/nl/\">nl</a></<a href=\"/a/\">a</a>>)&<a href=\"/nbsp/\">nbsp</a>;<a href=\"/kunt/\">kunt</a> <a href=\"/u/\">u</a>&<a href=\"/nbsp/\">nbsp</a>; <a href=\"/gebruiken/\">gebruiken</a> <a href=\"/om/\">om</a> <a href=\"/informatie/\">informatie</a> <a href=\"/door/\">door</a> <a href=\"/te/\">te</a> <a href=\"/geven/\">geven</a>. <a href=\"/Buiten/\">Buiten</a> <a href=\"/de/\">de</a>&<a href=\"/nbsp/\">nbsp</a>; <a href=\"/telefonische/\">telefonische</a> <a href=\"/spreekuurtijden/\">spreekuurtijden</a> <a href=\"/kunt/\">kunt</a> <a href=\"/u/\">u</a> <a href=\"/een/\">een</a> <a href=\"/boodschap/\">boodschap</a> <a href=\"/inspreken/\">inspreken</a>, <a href=\"/waarop/\">waarop</a> <a href=\"/ik/\">ik</a> <a href=\"/binnen/\">binnen</a> 24 <a href=\"/uur/\">uur</a>, <a href=\"/indien/\">indien</a> <a href=\"/op/\">op</a> <a href=\"/een/\">een</a> <a href=\"/werkdag/\">werkdag</a>, <a href=\"/zal/\">zal</a> <a href=\"/antwoorden/\">antwoorden</a>. <a href=\"/In/\">In</a> <a href=\"/noodgevallen/\">noodgevallen</a> <a href=\"/buiten/\">buiten</a> <a href=\"/kantooruren/\">kantooruren</a> <a href=\"/kunt/\">kunt</a> <a href=\"/u/\">u</a> <a href=\"/contact/\">contact</a> <a href=\"/opnemen/\">opnemen</a> <a href=\"/met/\">met</a> <a href=\"/de/\">de</a> <a href=\"/huisartsenpost/\">huisartsenpost</a>.<<a href=\"/br/\">br</a> /><<a href=\"/br/\">br</a> /><a href=\"/Indien/\">Indien</a> <a href=\"/u/\">u</a> <a href=\"/vragen/\">vragen</a> <a href=\"/hebt/\">hebt</a> <a href=\"/over/\">over</a> <a href=\"/de/\">de</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/of/\">of</a> <a href=\"/niet/\">niet</a> <a href=\"/tevreden/\">tevreden</a> <a href=\"/bent/\">bent</a> <a href=\"/kunt/\">kunt</a> <a href=\"/u/\">u</a> <a href=\"/dit/\">dit</a> <a href=\"/uiteraard/\">uiteraard</a> <a href=\"/bespreken/\">bespreken</a>. <a href=\"/Indien/\">Indien</a> <a href=\"/wij/\">wij</a> <a href=\"/er/\">er</a> <a href=\"/niet/\">niet</a> <a href=\"/uitkomen/\">uitkomen</a>, <a href=\"/bestaat/\">bestaat</a> <a href=\"/de/\">de</a> <a href=\"/mogelijkheid/\">mogelijkheid</a> <a href=\"/van/\">van</a> <a href=\"/het/\">het</a> <a href=\"/indienen/\">indienen</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/klacht/\">klacht</a>, <a href=\"/bij/\">bij</a> <a href=\"/de/\">de</a> <a href=\"/regionale/\">regionale</a> <a href=\"/klachtencommissie/\">klachtencommissie</a> <a href=\"/van/\">van</a> <a href=\"/zelfstandig/\">zelfstandig</a> <a href=\"/gevestigde/\">gevestigde</a> <a href=\"/psychiaters/\">psychiaters</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/De/\">De</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/van/\">van</a> <a href=\"/mevrouw/\">mevrouw</a> <a href=\"/R/\">R</a>.<a href=\"/J/\">J</a>.<a href=\"/C/\">C</a>. <a href=\"/de/\">de</a> <a href=\"/Weme/\">Weme</a> <a href=\"/is/\">is</a> <a href=\"/gevestigd/\">gevestigd</a> <a href=\"/op/\">op</a> <a href=\"/Manenburgdreef/\">Manenburgdreef</a> 101, 2135 <a href=\"/GW/\">GW</a>, &<a href=\"/nbsp/\">nbsp</a>;<a href=\"/in/\">in</a> <a href=\"/de/\">de</a> <a href=\"/wijk/\">wijk</a> <a href=\"/Toolenburg/\">Toolenburg</a> <a href=\"/te/\">te</a> <a href=\"/Hoofddorp/\">Hoofddorp</a>. <a href=\"/De/\">De</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/is/\">is</a> <a href=\"/goed/\">goed</a> <a href=\"/bereikbaar/\">bereikbaar</a> <a href=\"/per/\">per</a> <a href=\"/openbaar/\">openbaar</a> <a href=\"/vervoer/\">vervoer</a> (<a href=\"/Zuidtangent/\">Zuidtangent</a> <a href=\"/halte/\">halte</a> <a href=\"/Toolenburg/\">Toolenburg</a> <a href=\"/of/\">of</a> <a href=\"/buslijn/\">buslijn</a> 196 <a href=\"/en/\">en</a> 296 <a href=\"/halte/\">halte</a> <a href=\"/Winkelcentrum/\">Winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a>) <a href=\"/en/\">en</a> <a href=\"/per/\">per</a> <a href=\"/auto/\">auto</a>, <a href=\"/er/\">er</a> <a href=\"/is/\">is</a> <a href=\"/voldoende/\">voldoende</a>&<a href=\"/nbsp/\">nbsp</a>; <a href=\"/parkeerruimte/\">parkeerruimte</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"/<a href=\"/kaartje/\">kaartje</a>.<a href=\"/html/\">html</a>\"><a href=\"/kaartje/\">kaartje</a></<a href=\"/a/\">a</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n</<a href=\"/div/\">div</a>>", 
+      "visible_in_nav": true, 
+      "name": "Contact", 
+      "order": 3
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<p><em>Informatie</em></p>\r\n<p>In de lijst met links vindt u hopelijk bruikbare informatie</p>\r\n<p>&nbsp;</p>\r\n<table>\r\n<tbody>\r\n<tr>\r\n<td><a href=\"http://www.trimbos.nl/\" target=\"_blank\">Trimbos-instituut</a></td>\r\n<td>Informatieve site, bij Trimbos zijn ook brochures te bestellen</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><a href=\"http://psychiatrienet.nl\" target=\"_blank\">Psychiatrienet.nl</a></p>\r\n<p>&nbsp;</p>\r\n<p>NVvP(NVVP.net)</p>\r\n<p>Vereniging Manisch Depressieven en Betrokkenen(VMDB) nsmd.nl</p>\r\n<p>Impuls</p>\r\n<p><a href=\"http://www.psychotherapie.nl/\" target=\"_blank\">Nederlandse Vereniging voor Psychotherapie</a></p>\r\n</td>\r\n<td>\r\n<p>ook folders, onder publicaties</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Pati&euml;nten Vereniging Bipolaire stoornis</p>\r\n<p>Pati&euml;nten Vereniging ADHD</p>\r\n<p>Veel info over therapievormen</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td><a href=\"http://www.ggznederland.nl/\" target=\"_blank\">GGZ Nederland</a></td>\r\n<td>Koepelorganisatie, site met veel links</td>\r\n</tr>\r\n</tbody>\r\n</table>", 
+      "rendered": "<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Informatie/\">Informatie</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/In/\">In</a> <a href=\"/de/\">de</a> <a href=\"/lijst/\">lijst</a> <a href=\"/met/\">met</a> <a href=\"/links/\">links</a> <a href=\"/vindt/\">vindt</a> <a href=\"/u/\">u</a> <a href=\"/hopelijk/\">hopelijk</a> <a href=\"/bruikbare/\">bruikbare</a> <a href=\"/informatie/\">informatie</a></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/table/\">table</a>>\r\n<<a href=\"/tbody/\">tbody</a>>\r\n<<a href=\"/tr/\">tr</a>>\r\n<<a href=\"/td/\">td</a>><<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/http/\">http</a>://<a href=\"/www/\">www</a>.<a href=\"/trimbos/\">trimbos</a>.<a href=\"/nl/\">nl</a>/\" <a href=\"/target/\">target</a>=\"_blank\"><a href=\"/Trimbos/\">Trimbos</a>-<a href=\"/instituut/\">instituut</a></<a href=\"/a/\">a</a>></<a href=\"/td/\">td</a>>\r\n<<a href=\"/td/\">td</a>><a href=\"/Informatieve/\">Informatieve</a> <a href=\"/site/\">site</a>, <a href=\"/bij/\">bij</a> <a href=\"/Trimbos/\">Trimbos</a> <a href=\"/zijn/\">zijn</a> <a href=\"/ook/\">ook</a> <a href=\"/brochures/\">brochures</a> <a href=\"/te/\">te</a> <a href=\"/bestellen/\">bestellen</a></<a href=\"/td/\">td</a>>\r\n</<a href=\"/tr/\">tr</a>>\r\n<<a href=\"/tr/\">tr</a>>\r\n<<a href=\"/td/\">td</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/http/\">http</a>://<a href=\"/psychiatrienet/\">psychiatrienet</a>.<a href=\"/nl/\">nl</a>\" <a href=\"/target/\">target</a>=\"_blank\"><a href=\"/Psychiatrienet/\">Psychiatrienet</a>.<a href=\"/nl/\">nl</a></<a href=\"/a/\">a</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/NVvP/\">NVvP</a>(<a href=\"/NVVP/\">NVVP</a>.<a href=\"/net/\">net</a>)</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Vereniging/\">Vereniging</a> <a href=\"/Manisch/\">Manisch</a> <a href=\"/Depressieven/\">Depressieven</a> <a href=\"/en/\">en</a> <a href=\"/Betrokkenen/\">Betrokkenen</a>(<a href=\"/VMDB/\">VMDB</a>) <a href=\"/nsmd/\">nsmd</a>.<a href=\"/nl/\">nl</a></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Impuls/\">Impuls</a></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/http/\">http</a>://<a href=\"/www/\">www</a>.<a href=\"/psychotherapie/\">psychotherapie</a>.<a href=\"/nl/\">nl</a>/\" <a href=\"/target/\">target</a>=\"_blank\"><a href=\"/Nederlandse/\">Nederlandse</a> <a href=\"/Vereniging/\">Vereniging</a> <a href=\"/voor/\">voor</a> <a href=\"/Psychotherapie/\">Psychotherapie</a></<a href=\"/a/\">a</a>></<a href=\"/p/\">p</a>>\r\n</<a href=\"/td/\">td</a>>\r\n<<a href=\"/td/\">td</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/ook/\">ook</a> <a href=\"/folders/\">folders</a>, <a href=\"/onder/\">onder</a> <a href=\"/publicaties/\">publicaties</a></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Pati/\">Pati</a>&<a href=\"/euml/\">euml</a>;<a href=\"/nten/\">nten</a> <a href=\"/Vereniging/\">Vereniging</a> <a href=\"/Bipolaire/\">Bipolaire</a> <a href=\"/stoornis/\">stoornis</a></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Pati/\">Pati</a>&<a href=\"/euml/\">euml</a>;<a href=\"/nten/\">nten</a> <a href=\"/Vereniging/\">Vereniging</a> <a href=\"/ADHD/\">ADHD</a></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Veel/\">Veel</a> <a href=\"/info/\">info</a> <a href=\"/over/\">over</a> <a href=\"/therapievormen/\">therapievormen</a></<a href=\"/p/\">p</a>>\r\n</<a href=\"/td/\">td</a>>\r\n</<a href=\"/tr/\">tr</a>>\r\n<<a href=\"/tr/\">tr</a>>\r\n<<a href=\"/td/\">td</a>><<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/http/\">http</a>://<a href=\"/www/\">www</a>.<a href=\"/ggznederland/\">ggznederland</a>.<a href=\"/nl/\">nl</a>/\" <a href=\"/target/\">target</a>=\"_blank\"><a href=\"/GGZ/\">GGZ</a> <a href=\"/Nederland/\">Nederland</a></<a href=\"/a/\">a</a>></<a href=\"/td/\">td</a>>\r\n<<a href=\"/td/\">td</a>><a href=\"/Koepelorganisatie/\">Koepelorganisatie</a>, <a href=\"/site/\">site</a> <a href=\"/met/\">met</a> <a href=\"/veel/\">veel</a> <a href=\"/links/\">links</a></<a href=\"/td/\">td</a>>\r\n</<a href=\"/tr/\">tr</a>>\r\n</<a href=\"/tbody/\">tbody</a>>\r\n</<a href=\"/table/\">table</a>>", 
+      "visible_in_nav": true, 
+      "name": "Links", 
+      "order": 5
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<p><iframe src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Manenburgdreef+15,+Hoofddorp,+Nederland&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=39.184175,65.302734&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Manenburgdreef+15,+Hoofddorp,+Haarlemmermeer,+Noord-Holland,+Nederland&amp;t=m&amp;ll=52.302076,4.660091&amp;spn=0.03674,0.120163&amp;z=13&amp;iwloc=&amp;output=embed\" width=\"700\" height=\"350\"></iframe><br /><small><a style=\"color: #0000ff; text-align: left;\" href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=nl&amp;geocode=&amp;q=Manenburgdreef+15,+Hoofddorp,+Nederland&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=39.184175,65.302734&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Manenburgdreef+15,+Hoofddorp,+Haarlemmermeer,+Noord-Holland,+Nederland&amp;t=m&amp;ll=52.302076,4.660091&amp;spn=0.03674,0.120163&amp;z=13&amp;iwloc=A\">Grotere kaart weergeven</a></small></p>\r\n<p>Per Zuidtangent (lijn 300): De Zuidtangent komt onder andere langs de NS-stations Hoofddorp, Schiphol en Haarlem. Stap uit op de halte Toolenburg,volg het fietspad richting winkelcentrum Toolenburg, ga over ditfietspad langs dit winkelcentrum, kruis de busbaan (van lijn 196) en u vindtgelijk na de busbaan aan uw rechterhand het gebouw Meirmanflat, waarin onderandere de praktijk van mevrouw de Weme is gevestigd. Deze wandeling kost uongeveer 10 minuten.</p>\r\n<p>Bus 196 en 296 stoppen pal voor de praktijk. Deze bus rijdt van het busstation Spaarneziekenhuis Hoofddorp via de busbaan in Overbos en Toolenburg naar het station NS Hoofddorp. Als u bij de halte winkelcentrum Toolenburg uitstapt, ziet aan de ene kant van de busbaan het winkelcentrum en aan de ander kant het gebouw Meirmanflat.&nbsp;</p>\r\n<p><em>Per auto</em></p>\r\n<p><span style=\"text-decoration: underline;\">Vanaf de A4</span>: afslag Hoofddorp, richting Hoofddorp (N201=Kruisweg), na 1,4 km (2e stoplichten naar links richting o.a. Nieuw Vennep, volg deze rondweg (Van Heuven Goerdhartlaan) 2,9 km; volg de borden Winkelcentrum Toolenburg; bij Winkelcentrum Toolenburg, de busbaan oversteken. U bent nu op de Manenburgdreef.</p>\r\n<p><span style=\"text-decoration: underline;\">Vanaf Heemstede</span>: volg Kruisweg (N201), ga bij de brandweerkazerne rechtsaf, de Van Heuven Goedhartlaan op, volg deze tot de borden Winkelcentrum Toolenburg, de busbaan oversteken. U bent nu op de Manenburgdreef.</p>\r\n<p><span style=\"text-decoration: underline;\">Vanuit Nieuw Vennep</span>: volg Hoofdweg tot politiebureau, linksaf Van Heuven Goedhartlaan op volg de borden Winkelcentrum Toolenburg; bij Winkelcentrum Toolenburg, de busbaan oversteken. U bent nu op de Manenburgdreef.</p>\r\n<p><span style=\"text-decoration: underline;\">Vanaf Drie Merenweg</span>: richting Hoofddorp, volg Kruisweg (N201), ga bij de brandweerkazerne rechtsaf, de Van Heuven Goedhartlaan op, volg deze tot de borden Winkelcentrum Toolenburg, de busbaan oversteken. U bent nu op de Manenburgdreef.</p>", 
+      "rendered": "<<a href=\"/p/\">p</a>><<a href=\"/iframe/\">iframe</a> <a href=\"/src/\">src</a>=\"<a href=\"/http/\">http</a>://<a href=\"/maps/\">maps</a>.<a href=\"/google/\">google</a>.<a href=\"/com/\">com</a>/<a href=\"/maps/\">maps</a>?<a href=\"/f/\">f</a>=<a href=\"/q/\">q</a>&<a href=\"/amp/\">amp</a>;<a href=\"/source/\">source</a>=s_q&<a href=\"/amp/\">amp</a>;<a href=\"/hl/\">hl</a>=<a href=\"/nl/\">nl</a>&<a href=\"/amp/\">amp</a>;<a href=\"/geocode/\">geocode</a>=&<a href=\"/amp/\">amp</a>;<a href=\"/q/\">q</a>=<a href=\"/Manenburgdreef/\">Manenburgdreef</a>+15,+<a href=\"/Hoofddorp/\">Hoofddorp</a>,+<a href=\"/Nederland/\">Nederland</a>&<a href=\"/amp/\">amp</a>;<a href=\"/aq/\">aq</a>=0&<a href=\"/amp/\">amp</a>;<a href=\"/sll/\">sll</a>=37.0625,-95.677068&<a href=\"/amp/\">amp</a>;<a href=\"/sspn/\">sspn</a>=39.184175,65.302734&<a href=\"/amp/\">amp</a>;<a href=\"/vpsrc/\">vpsrc</a>=0&<a href=\"/amp/\">amp</a>;<a href=\"/ie/\">ie</a>=UTF8&<a href=\"/amp/\">amp</a>;<a href=\"/hq/\">hq</a>=&<a href=\"/amp/\">amp</a>;<a href=\"/hnear/\">hnear</a>=<a href=\"/Manenburgdreef/\">Manenburgdreef</a>+15,+<a href=\"/Hoofddorp/\">Hoofddorp</a>,+<a href=\"/Haarlemmermeer/\">Haarlemmermeer</a>,+<a href=\"/Noord/\">Noord</a>-<a href=\"/Holland/\">Holland</a>,+<a href=\"/Nederland/\">Nederland</a>&<a href=\"/amp/\">amp</a>;<a href=\"/t/\">t</a>=<a href=\"/m/\">m</a>&<a href=\"/amp/\">amp</a>;<a href=\"/ll/\">ll</a>=52.302076,4.660091&<a href=\"/amp/\">amp</a>;<a href=\"/spn/\">spn</a>=0.03674,0.120163&<a href=\"/amp/\">amp</a>;<a href=\"/z/\">z</a>=13&<a href=\"/amp/\">amp</a>;<a href=\"/iwloc/\">iwloc</a>=&<a href=\"/amp/\">amp</a>;<a href=\"/output/\">output</a>=<a href=\"/embed/\">embed</a>\" <a href=\"/width/\">width</a>=\"700\" <a href=\"/height/\">height</a>=\"350\"></<a href=\"/iframe/\">iframe</a>><<a href=\"/br/\">br</a> /><<a href=\"/small/\">small</a>><<a href=\"/a/\">a</a> <a href=\"/style/\">style</a>=\"<a href=\"/color/\">color</a>: #0000ff; <a href=\"/text/\">text</a>-<a href=\"/align/\">align</a>: <a href=\"/left/\">left</a>;\" <a href=\"/href/\">href</a>=\"<a href=\"/http/\">http</a>://<a href=\"/maps/\">maps</a>.<a href=\"/google/\">google</a>.<a href=\"/com/\">com</a>/<a href=\"/maps/\">maps</a>?<a href=\"/f/\">f</a>=<a href=\"/q/\">q</a>&<a href=\"/amp/\">amp</a>;<a href=\"/source/\">source</a>=<a href=\"/embed/\">embed</a>&<a href=\"/amp/\">amp</a>;<a href=\"/hl/\">hl</a>=<a href=\"/nl/\">nl</a>&<a href=\"/amp/\">amp</a>;<a href=\"/geocode/\">geocode</a>=&<a href=\"/amp/\">amp</a>;<a href=\"/q/\">q</a>=<a href=\"/Manenburgdreef/\">Manenburgdreef</a>+15,+<a href=\"/Hoofddorp/\">Hoofddorp</a>,+<a href=\"/Nederland/\">Nederland</a>&<a href=\"/amp/\">amp</a>;<a href=\"/aq/\">aq</a>=0&<a href=\"/amp/\">amp</a>;<a href=\"/sll/\">sll</a>=37.0625,-95.677068&<a href=\"/amp/\">amp</a>;<a href=\"/sspn/\">sspn</a>=39.184175,65.302734&<a href=\"/amp/\">amp</a>;<a href=\"/vpsrc/\">vpsrc</a>=0&<a href=\"/amp/\">amp</a>;<a href=\"/ie/\">ie</a>=UTF8&<a href=\"/amp/\">amp</a>;<a href=\"/hq/\">hq</a>=&<a href=\"/amp/\">amp</a>;<a href=\"/hnear/\">hnear</a>=<a href=\"/Manenburgdreef/\">Manenburgdreef</a>+15,+<a href=\"/Hoofddorp/\">Hoofddorp</a>,+<a href=\"/Haarlemmermeer/\">Haarlemmermeer</a>,+<a href=\"/Noord/\">Noord</a>-<a href=\"/Holland/\">Holland</a>,+<a href=\"/Nederland/\">Nederland</a>&<a href=\"/amp/\">amp</a>;<a href=\"/t/\">t</a>=<a href=\"/m/\">m</a>&<a href=\"/amp/\">amp</a>;<a href=\"/ll/\">ll</a>=52.302076,4.660091&<a href=\"/amp/\">amp</a>;<a href=\"/spn/\">spn</a>=0.03674,0.120163&<a href=\"/amp/\">amp</a>;<a href=\"/z/\">z</a>=13&<a href=\"/amp/\">amp</a>;<a href=\"/iwloc/\">iwloc</a>=<a href=\"/A/\">A</a>\"><a href=\"/Grotere/\">Grotere</a> <a href=\"/kaart/\">kaart</a> <a href=\"/weergeven/\">weergeven</a></<a href=\"/a/\">a</a>></<a href=\"/small/\">small</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Per/\">Per</a> <a href=\"/Zuidtangent/\">Zuidtangent</a> (<a href=\"/lijn/\">lijn</a> 300): <a href=\"/De/\">De</a> <a href=\"/Zuidtangent/\">Zuidtangent</a> <a href=\"/komt/\">komt</a> <a href=\"/onder/\">onder</a> <a href=\"/andere/\">andere</a> <a href=\"/langs/\">langs</a> <a href=\"/de/\">de</a> <a href=\"/NS/\">NS</a>-<a href=\"/stations/\">stations</a> <a href=\"/Hoofddorp/\">Hoofddorp</a>, <a href=\"/Schiphol/\">Schiphol</a> <a href=\"/en/\">en</a> <a href=\"/Haarlem/\">Haarlem</a>. <a href=\"/Stap/\">Stap</a> <a href=\"/uit/\">uit</a> <a href=\"/op/\">op</a> <a href=\"/de/\">de</a> <a href=\"/halte/\">halte</a> <a href=\"/Toolenburg/\">Toolenburg</a>,<a href=\"/volg/\">volg</a> <a href=\"/het/\">het</a> <a href=\"/fietspad/\">fietspad</a> <a href=\"/richting/\">richting</a> <a href=\"/winkelcentrum/\">winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a>, <a href=\"/ga/\">ga</a> <a href=\"/over/\">over</a> <a href=\"/ditfietspad/\">ditfietspad</a> <a href=\"/langs/\">langs</a> <a href=\"/dit/\">dit</a> <a href=\"/winkelcentrum/\">winkelcentrum</a>, <a href=\"/kruis/\">kruis</a> <a href=\"/de/\">de</a> <a href=\"/busbaan/\">busbaan</a> (<a href=\"/van/\">van</a> <a href=\"/lijn/\">lijn</a> 196) <a href=\"/en/\">en</a> <a href=\"/u/\">u</a> <a href=\"/vindtgelijk/\">vindtgelijk</a> <a href=\"/na/\">na</a> <a href=\"/de/\">de</a> <a href=\"/busbaan/\">busbaan</a> <a href=\"/aan/\">aan</a> <a href=\"/uw/\">uw</a> <a href=\"/rechterhand/\">rechterhand</a> <a href=\"/het/\">het</a> <a href=\"/gebouw/\">gebouw</a> <a href=\"/Meirmanflat/\">Meirmanflat</a>, <a href=\"/waarin/\">waarin</a> <a href=\"/onderandere/\">onderandere</a> <a href=\"/de/\">de</a> <a href=\"/praktijk/\">praktijk</a> <a href=\"/van/\">van</a> <a href=\"/mevrouw/\">mevrouw</a> <a href=\"/de/\">de</a> <a href=\"/Weme/\">Weme</a> <a href=\"/is/\">is</a> <a href=\"/gevestigd/\">gevestigd</a>. <a href=\"/Deze/\">Deze</a> <a href=\"/wandeling/\">wandeling</a> <a href=\"/kost/\">kost</a> <a href=\"/uongeveer/\">uongeveer</a> 10 <a href=\"/minuten/\">minuten</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Bus/\">Bus</a> 196 <a href=\"/en/\">en</a> 296 <a href=\"/stoppen/\">stoppen</a> <a href=\"/pal/\">pal</a> <a href=\"/voor/\">voor</a> <a href=\"/de/\">de</a> <a href=\"/praktijk/\">praktijk</a>. <a href=\"/Deze/\">Deze</a> <a href=\"/bus/\">bus</a> <a href=\"/rijdt/\">rijdt</a> <a href=\"/van/\">van</a> <a href=\"/het/\">het</a> <a href=\"/busstation/\">busstation</a> <a href=\"/Spaarneziekenhuis/\">Spaarneziekenhuis</a> <a href=\"/Hoofddorp/\">Hoofddorp</a> <a href=\"/via/\">via</a> <a href=\"/de/\">de</a> <a href=\"/busbaan/\">busbaan</a> <a href=\"/in/\">in</a> <a href=\"/Overbos/\">Overbos</a> <a href=\"/en/\">en</a> <a href=\"/Toolenburg/\">Toolenburg</a> <a href=\"/naar/\">naar</a> <a href=\"/het/\">het</a> <a href=\"/station/\">station</a> <a href=\"/NS/\">NS</a> <a href=\"/Hoofddorp/\">Hoofddorp</a>. <a href=\"/Als/\">Als</a> <a href=\"/u/\">u</a> <a href=\"/bij/\">bij</a> <a href=\"/de/\">de</a> <a href=\"/halte/\">halte</a> <a href=\"/winkelcentrum/\">winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a> <a href=\"/uitstapt/\">uitstapt</a>, <a href=\"/ziet/\">ziet</a> <a href=\"/aan/\">aan</a> <a href=\"/de/\">de</a> <a href=\"/ene/\">ene</a> <a href=\"/kant/\">kant</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/busbaan/\">busbaan</a> <a href=\"/het/\">het</a> <a href=\"/winkelcentrum/\">winkelcentrum</a> <a href=\"/en/\">en</a> <a href=\"/aan/\">aan</a> <a href=\"/de/\">de</a> <a href=\"/ander/\">ander</a> <a href=\"/kant/\">kant</a> <a href=\"/het/\">het</a> <a href=\"/gebouw/\">gebouw</a> <a href=\"/Meirmanflat/\">Meirmanflat</a>.&<a href=\"/nbsp/\">nbsp</a>;</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Per/\">Per</a> <a href=\"/auto/\">auto</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/text/\">text</a>-<a href=\"/decoration/\">decoration</a>: <a href=\"/underline/\">underline</a>;\"><a href=\"/Vanaf/\">Vanaf</a> <a href=\"/de/\">de</a> A4</<a href=\"/span/\">span</a>>: <a href=\"/afslag/\">afslag</a> <a href=\"/Hoofddorp/\">Hoofddorp</a>, <a href=\"/richting/\">richting</a> <a href=\"/Hoofddorp/\">Hoofddorp</a> (N201=<a href=\"/Kruisweg/\">Kruisweg</a>), <a href=\"/na/\">na</a> 1,4 <a href=\"/km/\">km</a> (2e <a href=\"/stoplichten/\">stoplichten</a> <a href=\"/naar/\">naar</a> <a href=\"/links/\">links</a> <a href=\"/richting/\">richting</a> <a href=\"/o/\">o</a>.<a href=\"/a/\">a</a>. <a href=\"/Nieuw/\">Nieuw</a> <a href=\"/Vennep/\">Vennep</a>, <a href=\"/volg/\">volg</a> <a href=\"/deze/\">deze</a> <a href=\"/rondweg/\">rondweg</a> (<a href=\"/Van/\">Van</a> <a href=\"/Heuven/\">Heuven</a> <a href=\"/Goerdhartlaan/\">Goerdhartlaan</a>) 2,9 <a href=\"/km/\">km</a>; <a href=\"/volg/\">volg</a> <a href=\"/de/\">de</a> <a href=\"/borden/\">borden</a> <a href=\"/Winkelcentrum/\">Winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a>; <a href=\"/bij/\">bij</a> <a href=\"/Winkelcentrum/\">Winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a>, <a href=\"/de/\">de</a> <a href=\"/busbaan/\">busbaan</a> <a href=\"/oversteken/\">oversteken</a>. <a href=\"/U/\">U</a> <a href=\"/bent/\">bent</a> <a href=\"/nu/\">nu</a> <a href=\"/op/\">op</a> <a href=\"/de/\">de</a> <a href=\"/Manenburgdreef/\">Manenburgdreef</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/text/\">text</a>-<a href=\"/decoration/\">decoration</a>: <a href=\"/underline/\">underline</a>;\"><a href=\"/Vanaf/\">Vanaf</a> <a href=\"/Heemstede/\">Heemstede</a></<a href=\"/span/\">span</a>>: <a href=\"/volg/\">volg</a> <a href=\"/Kruisweg/\">Kruisweg</a> (N201), <a href=\"/ga/\">ga</a> <a href=\"/bij/\">bij</a> <a href=\"/de/\">de</a> <a href=\"/brandweerkazerne/\">brandweerkazerne</a> <a href=\"/rechtsaf/\">rechtsaf</a>, <a href=\"/de/\">de</a> <a href=\"/Van/\">Van</a> <a href=\"/Heuven/\">Heuven</a> <a href=\"/Goedhartlaan/\">Goedhartlaan</a> <a href=\"/op/\">op</a>, <a href=\"/volg/\">volg</a> <a href=\"/deze/\">deze</a> <a href=\"/tot/\">tot</a> <a href=\"/de/\">de</a> <a href=\"/borden/\">borden</a> <a href=\"/Winkelcentrum/\">Winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a>, <a href=\"/de/\">de</a> <a href=\"/busbaan/\">busbaan</a> <a href=\"/oversteken/\">oversteken</a>. <a href=\"/U/\">U</a> <a href=\"/bent/\">bent</a> <a href=\"/nu/\">nu</a> <a href=\"/op/\">op</a> <a href=\"/de/\">de</a> <a href=\"/Manenburgdreef/\">Manenburgdreef</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/text/\">text</a>-<a href=\"/decoration/\">decoration</a>: <a href=\"/underline/\">underline</a>;\"><a href=\"/Vanuit/\">Vanuit</a> <a href=\"/Nieuw/\">Nieuw</a> <a href=\"/Vennep/\">Vennep</a></<a href=\"/span/\">span</a>>: <a href=\"/volg/\">volg</a> <a href=\"/Hoofdweg/\">Hoofdweg</a> <a href=\"/tot/\">tot</a> <a href=\"/politiebureau/\">politiebureau</a>, <a href=\"/linksaf/\">linksaf</a> <a href=\"/Van/\">Van</a> <a href=\"/Heuven/\">Heuven</a> <a href=\"/Goedhartlaan/\">Goedhartlaan</a> <a href=\"/op/\">op</a> <a href=\"/volg/\">volg</a> <a href=\"/de/\">de</a> <a href=\"/borden/\">borden</a> <a href=\"/Winkelcentrum/\">Winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a>; <a href=\"/bij/\">bij</a> <a href=\"/Winkelcentrum/\">Winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a>, <a href=\"/de/\">de</a> <a href=\"/busbaan/\">busbaan</a> <a href=\"/oversteken/\">oversteken</a>. <a href=\"/U/\">U</a> <a href=\"/bent/\">bent</a> <a href=\"/nu/\">nu</a> <a href=\"/op/\">op</a> <a href=\"/de/\">de</a> <a href=\"/Manenburgdreef/\">Manenburgdreef</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/span/\">span</a> <a href=\"/style/\">style</a>=\"<a href=\"/text/\">text</a>-<a href=\"/decoration/\">decoration</a>: <a href=\"/underline/\">underline</a>;\"><a href=\"/Vanaf/\">Vanaf</a> <a href=\"/Drie/\">Drie</a> <a href=\"/Merenweg/\">Merenweg</a></<a href=\"/span/\">span</a>>: <a href=\"/richting/\">richting</a> <a href=\"/Hoofddorp/\">Hoofddorp</a>, <a href=\"/volg/\">volg</a> <a href=\"/Kruisweg/\">Kruisweg</a> (N201), <a href=\"/ga/\">ga</a> <a href=\"/bij/\">bij</a> <a href=\"/de/\">de</a> <a href=\"/brandweerkazerne/\">brandweerkazerne</a> <a href=\"/rechtsaf/\">rechtsaf</a>, <a href=\"/de/\">de</a> <a href=\"/Van/\">Van</a> <a href=\"/Heuven/\">Heuven</a> <a href=\"/Goedhartlaan/\">Goedhartlaan</a> <a href=\"/op/\">op</a>, <a href=\"/volg/\">volg</a> <a href=\"/deze/\">deze</a> <a href=\"/tot/\">tot</a> <a href=\"/de/\">de</a> <a href=\"/borden/\">borden</a> <a href=\"/Winkelcentrum/\">Winkelcentrum</a> <a href=\"/Toolenburg/\">Toolenburg</a>, <a href=\"/de/\">de</a> <a href=\"/busbaan/\">busbaan</a> <a href=\"/oversteken/\">oversteken</a>. <a href=\"/U/\">U</a> <a href=\"/bent/\">bent</a> <a href=\"/nu/\">nu</a> <a href=\"/op/\">op</a> <a href=\"/de/\">de</a> <a href=\"/Manenburgdreef/\">Manenburgdreef</a>.</<a href=\"/p/\">p</a>>", 
+      "visible_in_nav": false, 
+      "name": "Kaartje", 
+      "order": 6
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<p><em>Wat is een winterdepressie</em></p>\r\n<p>Mensen met een winterdepressie hebben tijdens de wintermaanden duidelijke depressieve klachten, terwijl zij zich in de zomermaanden goed voelen. De depressieve klachten zijn somberheid, prikkelbaarheid, moeheid en geen fut hebben. Vaak zijn ook interesse, sociale contacten en libido verminderd. Opvallend bij de winterdepressie is de toegenomen slaapbehoefte en eetlust. Er is vooral behoefte aan koolhydraatrijk voedsel en het gewicht kan fors toenemen. Bij depressieve klachten en een seizoensgebonden patroon gedurende tenminste twee jaar is er sprake van een winterdepressie, als er geen andere ernstige psychiatrische ziekten zijn. Als er wel seizoensgebonden klachten zijn, maar geen ernstige somberheid, spreekt men wel van \"winterblues\".</p>\r\n<p><em>Oorzaken</em></p>\r\n<p>De oorzaak van een winterdepressie is niet geheel duidelijk. Het korter worden van de dag en het blootstaan aan minder licht spelen waarschijnlijk een rol. Men denkt dat dit de \"biologische klok\" en de productie van het hormoon melatonine ontregelt. Hierdoor worden ook allerlei andere systemen, zoals dat van serotonine, verstoord.</p>\r\n<p><em>Behandeling</em></p>\r\n<p>Lichttherapie is de aangewezen behandeling voor een winterdepressie. Lichttherapieapparatuur geeft wit licht, zonder UV straling. U wordt er dus niet bruin van. Na een lichtkuur van een half uur gedurende 5 opeenvolgende dagen met een lichtsterkte van 10.000 lux is 60-80 % van de mensen met een winterdepressie klachtenvrij. Soms is een langere behandeling nodig. De bijwerkingen zijn meestal mild. Een lichte misselijkheid of hoofdpijn kan optreden evenals een branderig of vermoeid gevoel in de ogen. Enkele malen zijn ernstiger bijwerkingen gemeld, zoals manisch worden of denken aan zelfmoord. Bij bepaalde ziekten of medicatiegebruik is lichttherapie niet aan te raden. Voor een veilige toepassing wordt aangeraden de eerste twee jaar de behandeling onder begeleiding toe te passen. Indien lichttherapie niet werkt, kunnen antidepressiva of psychotherapie zinvol zijn.</p>\r\n<p><em>Procedure</em></p>\r\n<p>Na aanmelding ontvangt u een vragenlijst. Deze vragenlijst vult u in en neemt u mee naar de afspraak. Tijdens het eerste gesprek zullen wij uitzoeken of er inderdaad sprake is van een winterdepressie en of er geen medische bezwaren zijn tegen lichttherapie.<br />De lichtkuur bestaat uit vijf maal een half uur lichttherapie aan het begin van de ochtend. De eerste keer is op maandagochtend. Ik ben dan aanwezig om instructie te geven en vragen te beantwoorden. Na de kuur vindt een nabespreking van het effect plaats. De gesprekken zijn kort en duidelijk gericht op de winterdepressie. Hierdoor worden wachttijden vermeden.<em>Verdere informatie</em></p>\r\n<p>Vereniging voor Winterdepressiepati&euml;nten in Nederland,<br />Secretariaat mevrouw Van Ham<br />Jasmijnstraat 14<br />9951 GR Winsum</p>\r\n<p>\r\n<p style=\"color: #02b402;\"><a href=\"ltherapie.mp3\">Interview over lichttherapie</a><img src=\"geluidsrecorder.gif\" alt=\"\" /><br />Psychiater de Weme heeft 7 december 2001 een interview gegeven met Radio Noord-Holland. Klik op de hyperlink om een MP3 te downloaden.</p>\r\n<p>Internet biedt veel informatie, bij zoeken op \"lichttherapie\" en \"winterdepressie\"</p>\r\n</p>", 
+      "rendered": "<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Wat/\">Wat</a> <a href=\"/is/\">is</a> <a href=\"/een/\">een</a> <a href=\"/winterdepressie/\">winterdepressie</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Mensen/\">Mensen</a> <a href=\"/met/\">met</a> <a href=\"/een/\">een</a> <a href=\"/winterdepressie/\">winterdepressie</a> <a href=\"/hebben/\">hebben</a> <a href=\"/tijdens/\">tijdens</a> <a href=\"/de/\">de</a> <a href=\"/wintermaanden/\">wintermaanden</a> <a href=\"/duidelijke/\">duidelijke</a> <a href=\"/depressieve/\">depressieve</a> <a href=\"/klachten/\">klachten</a>, <a href=\"/terwijl/\">terwijl</a> <a href=\"/zij/\">zij</a> <a href=\"/zich/\">zich</a> <a href=\"/in/\">in</a> <a href=\"/de/\">de</a> <a href=\"/zomermaanden/\">zomermaanden</a> <a href=\"/goed/\">goed</a> <a href=\"/voelen/\">voelen</a>. <a href=\"/De/\">De</a> <a href=\"/depressieve/\">depressieve</a> <a href=\"/klachten/\">klachten</a> <a href=\"/zijn/\">zijn</a> <a href=\"/somberheid/\">somberheid</a>, <a href=\"/prikkelbaarheid/\">prikkelbaarheid</a>, <a href=\"/moeheid/\">moeheid</a> <a href=\"/en/\">en</a> <a href=\"/geen/\">geen</a> <a href=\"/fut/\">fut</a> <a href=\"/hebben/\">hebben</a>. <a href=\"/Vaak/\">Vaak</a> <a href=\"/zijn/\">zijn</a> <a href=\"/ook/\">ook</a> <a href=\"/interesse/\">interesse</a>, <a href=\"/sociale/\">sociale</a> <a href=\"/contacten/\">contacten</a> <a href=\"/en/\">en</a> <a href=\"/libido/\">libido</a> <a href=\"/verminderd/\">verminderd</a>. <a href=\"/Opvallend/\">Opvallend</a> <a href=\"/bij/\">bij</a> <a href=\"/de/\">de</a> <a href=\"/winterdepressie/\">winterdepressie</a> <a href=\"/is/\">is</a> <a href=\"/de/\">de</a> <a href=\"/toegenomen/\">toegenomen</a> <a href=\"/slaapbehoefte/\">slaapbehoefte</a> <a href=\"/en/\">en</a> <a href=\"/eetlust/\">eetlust</a>. <a href=\"/Er/\">Er</a> <a href=\"/is/\">is</a> <a href=\"/vooral/\">vooral</a> <a href=\"/behoefte/\">behoefte</a> <a href=\"/aan/\">aan</a> <a href=\"/koolhydraatrijk/\">koolhydraatrijk</a> <a href=\"/voedsel/\">voedsel</a> <a href=\"/en/\">en</a> <a href=\"/het/\">het</a> <a href=\"/gewicht/\">gewicht</a> <a href=\"/kan/\">kan</a> <a href=\"/fors/\">fors</a> <a href=\"/toenemen/\">toenemen</a>. <a href=\"/Bij/\">Bij</a> <a href=\"/depressieve/\">depressieve</a> <a href=\"/klachten/\">klachten</a> <a href=\"/en/\">en</a> <a href=\"/een/\">een</a> <a href=\"/seizoensgebonden/\">seizoensgebonden</a> <a href=\"/patroon/\">patroon</a> <a href=\"/gedurende/\">gedurende</a> <a href=\"/tenminste/\">tenminste</a> <a href=\"/twee/\">twee</a> <a href=\"/jaar/\">jaar</a> <a href=\"/is/\">is</a> <a href=\"/er/\">er</a> <a href=\"/sprake/\">sprake</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/winterdepressie/\">winterdepressie</a>, <a href=\"/als/\">als</a> <a href=\"/er/\">er</a> <a href=\"/geen/\">geen</a> <a href=\"/andere/\">andere</a> <a href=\"/ernstige/\">ernstige</a> <a href=\"/psychiatrische/\">psychiatrische</a> <a href=\"/ziekten/\">ziekten</a> <a href=\"/zijn/\">zijn</a>. <a href=\"/Als/\">Als</a> <a href=\"/er/\">er</a> <a href=\"/wel/\">wel</a> <a href=\"/seizoensgebonden/\">seizoensgebonden</a> <a href=\"/klachten/\">klachten</a> <a href=\"/zijn/\">zijn</a>, <a href=\"/maar/\">maar</a> <a href=\"/geen/\">geen</a> <a href=\"/ernstige/\">ernstige</a> <a href=\"/somberheid/\">somberheid</a>, <a href=\"/spreekt/\">spreekt</a> <a href=\"/men/\">men</a> <a href=\"/wel/\">wel</a> <a href=\"/van/\">van</a> \"<a href=\"/winterblues/\">winterblues</a>\".</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Oorzaken/\">Oorzaken</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/De/\">De</a> <a href=\"/oorzaak/\">oorzaak</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/winterdepressie/\">winterdepressie</a> <a href=\"/is/\">is</a> <a href=\"/niet/\">niet</a> <a href=\"/geheel/\">geheel</a> <a href=\"/duidelijk/\">duidelijk</a>. <a href=\"/Het/\">Het</a> <a href=\"/korter/\">korter</a> <a href=\"/worden/\">worden</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/dag/\">dag</a> <a href=\"/en/\">en</a> <a href=\"/het/\">het</a> <a href=\"/blootstaan/\">blootstaan</a> <a href=\"/aan/\">aan</a> <a href=\"/minder/\">minder</a> <a href=\"/licht/\">licht</a> <a href=\"/spelen/\">spelen</a> <a href=\"/waarschijnlijk/\">waarschijnlijk</a> <a href=\"/een/\">een</a> <a href=\"/rol/\">rol</a>. <a href=\"/Men/\">Men</a> <a href=\"/denkt/\">denkt</a> <a href=\"/dat/\">dat</a> <a href=\"/dit/\">dit</a> <a href=\"/de/\">de</a> \"<a href=\"/biologische/\">biologische</a> <a href=\"/klok/\">klok</a>\" <a href=\"/en/\">en</a> <a href=\"/de/\">de</a> <a href=\"/productie/\">productie</a> <a href=\"/van/\">van</a> <a href=\"/het/\">het</a> <a href=\"/hormoon/\">hormoon</a> <a href=\"/melatonine/\">melatonine</a> <a href=\"/ontregelt/\">ontregelt</a>. <a href=\"/Hierdoor/\">Hierdoor</a> <a href=\"/worden/\">worden</a> <a href=\"/ook/\">ook</a> <a href=\"/allerlei/\">allerlei</a> <a href=\"/andere/\">andere</a> <a href=\"/systemen/\">systemen</a>, <a href=\"/zoals/\">zoals</a> <a href=\"/dat/\">dat</a> <a href=\"/van/\">van</a> <a href=\"/serotonine/\">serotonine</a>, <a href=\"/verstoord/\">verstoord</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Behandeling/\">Behandeling</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Lichttherapie/\">Lichttherapie</a> <a href=\"/is/\">is</a> <a href=\"/de/\">de</a> <a href=\"/aangewezen/\">aangewezen</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/voor/\">voor</a> <a href=\"/een/\">een</a> <a href=\"/winterdepressie/\">winterdepressie</a>. <a href=\"/Lichttherapieapparatuur/\">Lichttherapieapparatuur</a> <a href=\"/geeft/\">geeft</a> <a href=\"/wit/\">wit</a> <a href=\"/licht/\">licht</a>, <a href=\"/zonder/\">zonder</a> <a href=\"/UV/\">UV</a> <a href=\"/straling/\">straling</a>. <a href=\"/U/\">U</a> <a href=\"/wordt/\">wordt</a> <a href=\"/er/\">er</a> <a href=\"/dus/\">dus</a> <a href=\"/niet/\">niet</a> <a href=\"/bruin/\">bruin</a> <a href=\"/van/\">van</a>. <a href=\"/Na/\">Na</a> <a href=\"/een/\">een</a> <a href=\"/lichtkuur/\">lichtkuur</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/half/\">half</a> <a href=\"/uur/\">uur</a> <a href=\"/gedurende/\">gedurende</a> 5 <a href=\"/opeenvolgende/\">opeenvolgende</a> <a href=\"/dagen/\">dagen</a> <a href=\"/met/\">met</a> <a href=\"/een/\">een</a> <a href=\"/lichtsterkte/\">lichtsterkte</a> <a href=\"/van/\">van</a> 10.000 <a href=\"/lux/\">lux</a> <a href=\"/is/\">is</a> 60-80 % <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/mensen/\">mensen</a> <a href=\"/met/\">met</a> <a href=\"/een/\">een</a> <a href=\"/winterdepressie/\">winterdepressie</a> <a href=\"/klachtenvrij/\">klachtenvrij</a>. <a href=\"/Soms/\">Soms</a> <a href=\"/is/\">is</a> <a href=\"/een/\">een</a> <a href=\"/langere/\">langere</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/nodig/\">nodig</a>. <a href=\"/De/\">De</a> <a href=\"/bijwerkingen/\">bijwerkingen</a> <a href=\"/zijn/\">zijn</a> <a href=\"/meestal/\">meestal</a> <a href=\"/mild/\">mild</a>. <a href=\"/Een/\">Een</a> <a href=\"/lichte/\">lichte</a> <a href=\"/misselijkheid/\">misselijkheid</a> <a href=\"/of/\">of</a> <a href=\"/hoofdpijn/\">hoofdpijn</a> <a href=\"/kan/\">kan</a> <a href=\"/optreden/\">optreden</a> <a href=\"/evenals/\">evenals</a> <a href=\"/een/\">een</a> <a href=\"/branderig/\">branderig</a> <a href=\"/of/\">of</a> <a href=\"/vermoeid/\">vermoeid</a> <a href=\"/gevoel/\">gevoel</a> <a href=\"/in/\">in</a> <a href=\"/de/\">de</a> <a href=\"/ogen/\">ogen</a>. <a href=\"/Enkele/\">Enkele</a> <a href=\"/malen/\">malen</a> <a href=\"/zijn/\">zijn</a> <a href=\"/ernstiger/\">ernstiger</a> <a href=\"/bijwerkingen/\">bijwerkingen</a> <a href=\"/gemeld/\">gemeld</a>, <a href=\"/zoals/\">zoals</a> <a href=\"/manisch/\">manisch</a> <a href=\"/worden/\">worden</a> <a href=\"/of/\">of</a> <a href=\"/denken/\">denken</a> <a href=\"/aan/\">aan</a> <a href=\"/zelfmoord/\">zelfmoord</a>. <a href=\"/Bij/\">Bij</a> <a href=\"/bepaalde/\">bepaalde</a> <a href=\"/ziekten/\">ziekten</a> <a href=\"/of/\">of</a> <a href=\"/medicatiegebruik/\">medicatiegebruik</a> <a href=\"/is/\">is</a> <a href=\"/lichttherapie/\">lichttherapie</a> <a href=\"/niet/\">niet</a> <a href=\"/aan/\">aan</a> <a href=\"/te/\">te</a> <a href=\"/raden/\">raden</a>. <a href=\"/Voor/\">Voor</a> <a href=\"/een/\">een</a> <a href=\"/veilige/\">veilige</a> <a href=\"/toepassing/\">toepassing</a> <a href=\"/wordt/\">wordt</a> <a href=\"/aangeraden/\">aangeraden</a> <a href=\"/de/\">de</a> <a href=\"/eerste/\">eerste</a> <a href=\"/twee/\">twee</a> <a href=\"/jaar/\">jaar</a> <a href=\"/de/\">de</a> <a href=\"/behandeling/\">behandeling</a> <a href=\"/onder/\">onder</a> <a href=\"/begeleiding/\">begeleiding</a> <a href=\"/toe/\">toe</a> <a href=\"/te/\">te</a> <a href=\"/passen/\">passen</a>. <a href=\"/Indien/\">Indien</a> <a href=\"/lichttherapie/\">lichttherapie</a> <a href=\"/niet/\">niet</a> <a href=\"/werkt/\">werkt</a>, <a href=\"/kunnen/\">kunnen</a> <a href=\"/antidepressiva/\">antidepressiva</a> <a href=\"/of/\">of</a> <a href=\"/psychotherapie/\">psychotherapie</a> <a href=\"/zinvol/\">zinvol</a> <a href=\"/zijn/\">zijn</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><<a href=\"/em/\">em</a>><a href=\"/Procedure/\">Procedure</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Na/\">Na</a> <a href=\"/aanmelding/\">aanmelding</a> <a href=\"/ontvangt/\">ontvangt</a> <a href=\"/u/\">u</a> <a href=\"/een/\">een</a> <a href=\"/vragenlijst/\">vragenlijst</a>. <a href=\"/Deze/\">Deze</a> <a href=\"/vragenlijst/\">vragenlijst</a> <a href=\"/vult/\">vult</a> <a href=\"/u/\">u</a> <a href=\"/in/\">in</a> <a href=\"/en/\">en</a> <a href=\"/neemt/\">neemt</a> <a href=\"/u/\">u</a> <a href=\"/mee/\">mee</a> <a href=\"/naar/\">naar</a> <a href=\"/de/\">de</a> <a href=\"/afspraak/\">afspraak</a>. <a href=\"/Tijdens/\">Tijdens</a> <a href=\"/het/\">het</a> <a href=\"/eerste/\">eerste</a> <a href=\"/gesprek/\">gesprek</a> <a href=\"/zullen/\">zullen</a> <a href=\"/wij/\">wij</a> <a href=\"/uitzoeken/\">uitzoeken</a> <a href=\"/of/\">of</a> <a href=\"/er/\">er</a> <a href=\"/inderdaad/\">inderdaad</a> <a href=\"/sprake/\">sprake</a> <a href=\"/is/\">is</a> <a href=\"/van/\">van</a> <a href=\"/een/\">een</a> <a href=\"/winterdepressie/\">winterdepressie</a> <a href=\"/en/\">en</a> <a href=\"/of/\">of</a> <a href=\"/er/\">er</a> <a href=\"/geen/\">geen</a> <a href=\"/medische/\">medische</a> <a href=\"/bezwaren/\">bezwaren</a> <a href=\"/zijn/\">zijn</a> <a href=\"/tegen/\">tegen</a> <a href=\"/lichttherapie/\">lichttherapie</a>.<<a href=\"/br/\">br</a> /><a href=\"/De/\">De</a> <a href=\"/lichtkuur/\">lichtkuur</a> <a href=\"/bestaat/\">bestaat</a> <a href=\"/uit/\">uit</a> <a href=\"/vijf/\">vijf</a> <a href=\"/maal/\">maal</a> <a href=\"/een/\">een</a> <a href=\"/half/\">half</a> <a href=\"/uur/\">uur</a> <a href=\"/lichttherapie/\">lichttherapie</a> <a href=\"/aan/\">aan</a> <a href=\"/het/\">het</a> <a href=\"/begin/\">begin</a> <a href=\"/van/\">van</a> <a href=\"/de/\">de</a> <a href=\"/ochtend/\">ochtend</a>. <a href=\"/De/\">De</a> <a href=\"/eerste/\">eerste</a> <a href=\"/keer/\">keer</a> <a href=\"/is/\">is</a> <a href=\"/op/\">op</a> <a href=\"/maandagochtend/\">maandagochtend</a>. <a href=\"/Ik/\">Ik</a> <a href=\"/ben/\">ben</a> <a href=\"/dan/\">dan</a> <a href=\"/aanwezig/\">aanwezig</a> <a href=\"/om/\">om</a> <a href=\"/instructie/\">instructie</a> <a href=\"/te/\">te</a> <a href=\"/geven/\">geven</a> <a href=\"/en/\">en</a> <a href=\"/vragen/\">vragen</a> <a href=\"/te/\">te</a> <a href=\"/beantwoorden/\">beantwoorden</a>. <a href=\"/Na/\">Na</a> <a href=\"/de/\">de</a> <a href=\"/kuur/\">kuur</a> <a href=\"/vindt/\">vindt</a> <a href=\"/een/\">een</a> <a href=\"/nabespreking/\">nabespreking</a> <a href=\"/van/\">van</a> <a href=\"/het/\">het</a> <a href=\"/effect/\">effect</a> <a href=\"/plaats/\">plaats</a>. <a href=\"/De/\">De</a> <a href=\"/gesprekken/\">gesprekken</a> <a href=\"/zijn/\">zijn</a> <a href=\"/kort/\">kort</a> <a href=\"/en/\">en</a> <a href=\"/duidelijk/\">duidelijk</a> <a href=\"/gericht/\">gericht</a> <a href=\"/op/\">op</a> <a href=\"/de/\">de</a> <a href=\"/winterdepressie/\">winterdepressie</a>. <a href=\"/Hierdoor/\">Hierdoor</a> <a href=\"/worden/\">worden</a> <a href=\"/wachttijden/\">wachttijden</a> <a href=\"/vermeden/\">vermeden</a>.<<a href=\"/em/\">em</a>><a href=\"/Verdere/\">Verdere</a> <a href=\"/informatie/\">informatie</a></<a href=\"/em/\">em</a>></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Vereniging/\">Vereniging</a> <a href=\"/voor/\">voor</a> <a href=\"/Winterdepressiepati/\">Winterdepressiepati</a>&<a href=\"/euml/\">euml</a>;<a href=\"/nten/\">nten</a> <a href=\"/in/\">in</a> <a href=\"/Nederland/\">Nederland</a>,<<a href=\"/br/\">br</a> /><a href=\"/Secretariaat/\">Secretariaat</a> <a href=\"/mevrouw/\">mevrouw</a> <a href=\"/Van/\">Van</a> <a href=\"/Ham/\">Ham</a><<a href=\"/br/\">br</a> /><a href=\"/Jasmijnstraat/\">Jasmijnstraat</a> 14<<a href=\"/br/\">br</a> />9951 <a href=\"/GR/\">GR</a> <a href=\"/Winsum/\">Winsum</a></<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a> <a href=\"/style/\">style</a>=\"<a href=\"/color/\">color</a>: #02b402;\"><<a href=\"/a/\">a</a> <a href=\"/href/\">href</a>=\"<a href=\"/ltherapie/\">ltherapie</a>.mp3\"><a href=\"/Interview/\">Interview</a> <a href=\"/over/\">over</a> <a href=\"/lichttherapie/\">lichttherapie</a></<a href=\"/a/\">a</a>><<a href=\"/img/\">img</a> <a href=\"/src/\">src</a>=\"<a href=\"/geluidsrecorder/\">geluidsrecorder</a>.<a href=\"/gif/\">gif</a>\" <a href=\"/alt/\">alt</a>=\"\" /><<a href=\"/br/\">br</a> /><a href=\"/Psychiater/\">Psychiater</a> <a href=\"/de/\">de</a> <a href=\"/Weme/\">Weme</a> <a href=\"/heeft/\">heeft</a> 7 <a href=\"/december/\">december</a> 2001 <a href=\"/een/\">een</a> <a href=\"/interview/\">interview</a> <a href=\"/gegeven/\">gegeven</a> <a href=\"/met/\">met</a> <a href=\"/Radio/\">Radio</a> <a href=\"/Noord/\">Noord</a>-<a href=\"/Holland/\">Holland</a>. <a href=\"/Klik/\">Klik</a> <a href=\"/op/\">op</a> <a href=\"/de/\">de</a> <a href=\"/hyperlink/\">hyperlink</a> <a href=\"/om/\">om</a> <a href=\"/een/\">een</a> MP3 <a href=\"/te/\">te</a> <a href=\"/downloaden/\">downloaden</a>.</<a href=\"/p/\">p</a>>\r\n<<a href=\"/p/\">p</a>><a href=\"/Internet/\">Internet</a> <a href=\"/biedt/\">biedt</a> <a href=\"/veel/\">veel</a> <a href=\"/informatie/\">informatie</a>, <a href=\"/bij/\">bij</a> <a href=\"/zoeken/\">zoeken</a> <a href=\"/op/\">op</a> \"<a href=\"/lichttherapie/\">lichttherapie</a>\" <a href=\"/en/\">en</a> \"<a href=\"/winterdepressie/\">winterdepressie</a>\"</<a href=\"/p/\">p</a>>\r\n</<a href=\"/p/\">p</a>>", 
+      "visible_in_nav": false, 
+      "name": "Lichttherapie", 
+      "order": 7
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<p>Welke order krijgt deze?</p>", 
+      "rendered": "<<a href=\"/p/\">p</a>><a href=\"/Welke/\">Welke</a> <a href=\"/order/\">order</a> <a href=\"/krijgt/\">krijgt</a> <a href=\"/deze/\">deze</a>?</<a href=\"/p/\">p</a>>", 
+      "visible_in_nav": true, 
+      "name": "FooBar", 
+      "order": 8
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "wiki.page", 
+    "fields": {
+      "content": "<p>bla bla</p>", 
+      "rendered": "<<a href=\"/p/\">p</a>><a href=\"/bla/\">bla</a> <a href=\"/bla/\">bla</a></<a href=\"/p/\">p</a>>", 
+      "visible_in_nav": true, 
+      "name": "TestPagina", 
+      "order": 9
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_logentry", 
+      "name": "Can add log entry", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_logentry", 
+      "name": "Can change log entry", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_logentry", 
+      "name": "Can delete log entry", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_group", 
+      "name": "Can add group", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_group", 
+      "name": "Can change group", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_group", 
+      "name": "Can delete group", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_message", 
+      "name": "Can add message", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_message", 
+      "name": "Can change message", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_message", 
+      "name": "Can delete message", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_permission", 
+      "name": "Can add permission", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_permission", 
+      "name": "Can change permission", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_permission", 
+      "name": "Can delete permission", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_user", 
+      "name": "Can add user", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_user", 
+      "name": "Can change user", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_user", 
+      "name": "Can delete user", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_contenttype", 
+      "name": "Can add content type", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_contenttype", 
+      "name": "Can change content type", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_contenttype", 
+      "name": "Can delete content type", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_session", 
+      "name": "Can add session", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_session", 
+      "name": "Can change session", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_session", 
+      "name": "Can delete session", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_site", 
+      "name": "Can add site", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_site", 
+      "name": "Can change site", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_site", 
+      "name": "Can delete site", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_page", 
+      "name": "Can add page", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_page", 
+      "name": "Can change page", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_page", 
+      "name": "Can delete page", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "eric", 
+      "first_name": "Eric", 
+      "last_name": "Schrijver", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2011-10-29T12:12:33.692", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$fe6da$cd0879977cac75aacca97d45d5da560cbffdfc48", 
+      "email": "eric@ericschrijver.nl", 
+      "date_joined": "2011-07-27T07:59:25"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "rienke", 
+      "first_name": "Rienke de", 
+      "last_name": "Weme", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2011-10-24T09:46:11.725", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$37cdd$492dbd81e8ae565afabd39573ddb4d200e2c570d", 
+      "email": "deweme@psychiaterdeweme.nl", 
+      "date_joined": "2011-10-12T10:12:05"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2011-10-29T12:45:15.722", 
+      "object_repr": "Lichttherapie", 
+      "object_id": "7", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2011-10-29T12:44:34.540", 
+      "object_repr": "Kaartje", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2011-10-29T12:44:05.737", 
+      "object_repr": "Links", 
+      "object_id": "5", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2011-10-29T12:43:41.825", 
+      "object_repr": "Contact", 
+      "object_id": "4", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2011-10-29T12:42:49.691", 
+      "object_repr": "Behandeling", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2011-10-29T12:42:24.953", 
+      "object_repr": "Aanmelding", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2011-10-29T12:41:38.299", 
+      "object_repr": "Introductie", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 3, 
+      "action_time": "2011-10-24T14:09:07.441", 
+      "object_repr": "burnout", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 3, 
+      "action_time": "2011-10-20T09:45:25.530", 
+      "object_repr": "MooiVerhaal", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 3, 
+      "action_time": "2011-10-20T09:45:25.524", 
+      "object_repr": "Mooi Verhaal", 
+      "object_id": "5", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2011-10-12T10:12:48.380", 
+      "object_repr": "rienke", 
+      "object_id": "2", 
+      "change_message": "Changed first_name, last_name, email, is_staff and is_superuser.", 
+      "user": 1, 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2011-10-12T10:12:05.374", 
+      "object_repr": "rienke", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2011-10-12T09:52:37.643", 
+      "object_repr": "eric", 
+      "object_id": "1", 
+      "change_message": "Changed first_name and last_name.", 
+      "user": 1, 
+      "content_type": 3
+    }
+  }
+]
