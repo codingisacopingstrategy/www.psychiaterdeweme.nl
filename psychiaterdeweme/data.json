@@ -233,7 +233,10 @@
     "fields": {
       "codename": "add_logentry", 
       "name": "Can add log entry", 
-      "content_type": 9
+      "content_type": [
+        "admin", 
+        "logentry"
+      ]
     }
   }, 
   {
@@ -242,7 +245,10 @@
     "fields": {
       "codename": "change_logentry", 
       "name": "Can change log entry", 
-      "content_type": 9
+      "content_type": [
+        "admin", 
+        "logentry"
+      ]
     }
   }, 
   {
@@ -251,7 +257,10 @@
     "fields": {
       "codename": "delete_logentry", 
       "name": "Can delete log entry", 
-      "content_type": 9
+      "content_type": [
+        "admin", 
+        "logentry"
+      ]
     }
   }, 
   {
@@ -260,7 +269,10 @@
     "fields": {
       "codename": "add_group", 
       "name": "Can add group", 
-      "content_type": 2
+      "content_type": [
+        "auth", 
+        "group"
+      ]
     }
   }, 
   {
@@ -269,7 +281,10 @@
     "fields": {
       "codename": "change_group", 
       "name": "Can change group", 
-      "content_type": 2
+      "content_type": [
+        "auth", 
+        "group"
+      ]
     }
   }, 
   {
@@ -278,7 +293,10 @@
     "fields": {
       "codename": "delete_group", 
       "name": "Can delete group", 
-      "content_type": 2
+      "content_type": [
+        "auth", 
+        "group"
+      ]
     }
   }, 
   {
@@ -287,7 +305,10 @@
     "fields": {
       "codename": "add_message", 
       "name": "Can add message", 
-      "content_type": 4
+      "content_type": [
+        "auth", 
+        "message"
+      ]
     }
   }, 
   {
@@ -296,7 +317,10 @@
     "fields": {
       "codename": "change_message", 
       "name": "Can change message", 
-      "content_type": 4
+      "content_type": [
+        "auth", 
+        "message"
+      ]
     }
   }, 
   {
@@ -305,7 +329,10 @@
     "fields": {
       "codename": "delete_message", 
       "name": "Can delete message", 
-      "content_type": 4
+      "content_type": [
+        "auth", 
+        "message"
+      ]
     }
   }, 
   {
@@ -314,7 +341,10 @@
     "fields": {
       "codename": "add_permission", 
       "name": "Can add permission", 
-      "content_type": 1
+      "content_type": [
+        "auth", 
+        "permission"
+      ]
     }
   }, 
   {
@@ -323,7 +353,10 @@
     "fields": {
       "codename": "change_permission", 
       "name": "Can change permission", 
-      "content_type": 1
+      "content_type": [
+        "auth", 
+        "permission"
+      ]
     }
   }, 
   {
@@ -332,7 +365,10 @@
     "fields": {
       "codename": "delete_permission", 
       "name": "Can delete permission", 
-      "content_type": 1
+      "content_type": [
+        "auth", 
+        "permission"
+      ]
     }
   }, 
   {
@@ -341,7 +377,10 @@
     "fields": {
       "codename": "add_user", 
       "name": "Can add user", 
-      "content_type": 3
+      "content_type": [
+        "auth", 
+        "user"
+      ]
     }
   }, 
   {
@@ -350,7 +389,10 @@
     "fields": {
       "codename": "change_user", 
       "name": "Can change user", 
-      "content_type": 3
+      "content_type": [
+        "auth", 
+        "user"
+      ]
     }
   }, 
   {
@@ -359,7 +401,10 @@
     "fields": {
       "codename": "delete_user", 
       "name": "Can delete user", 
-      "content_type": 3
+      "content_type": [
+        "auth", 
+        "user"
+      ]
     }
   }, 
   {
@@ -368,7 +413,10 @@
     "fields": {
       "codename": "add_contenttype", 
       "name": "Can add content type", 
-      "content_type": 5
+      "content_type": [
+        "contenttypes", 
+        "contenttype"
+      ]
     }
   }, 
   {
@@ -377,7 +425,10 @@
     "fields": {
       "codename": "change_contenttype", 
       "name": "Can change content type", 
-      "content_type": 5
+      "content_type": [
+        "contenttypes", 
+        "contenttype"
+      ]
     }
   }, 
   {
@@ -386,7 +437,10 @@
     "fields": {
       "codename": "delete_contenttype", 
       "name": "Can delete content type", 
-      "content_type": 5
+      "content_type": [
+        "contenttypes", 
+        "contenttype"
+      ]
     }
   }, 
   {
@@ -395,7 +449,10 @@
     "fields": {
       "codename": "add_session", 
       "name": "Can add session", 
-      "content_type": 6
+      "content_type": [
+        "sessions", 
+        "session"
+      ]
     }
   }, 
   {
@@ -404,7 +461,10 @@
     "fields": {
       "codename": "change_session", 
       "name": "Can change session", 
-      "content_type": 6
+      "content_type": [
+        "sessions", 
+        "session"
+      ]
     }
   }, 
   {
@@ -413,7 +473,10 @@
     "fields": {
       "codename": "delete_session", 
       "name": "Can delete session", 
-      "content_type": 6
+      "content_type": [
+        "sessions", 
+        "session"
+      ]
     }
   }, 
   {
@@ -422,7 +485,10 @@
     "fields": {
       "codename": "add_site", 
       "name": "Can add site", 
-      "content_type": 7
+      "content_type": [
+        "sites", 
+        "site"
+      ]
     }
   }, 
   {
@@ -431,7 +497,10 @@
     "fields": {
       "codename": "change_site", 
       "name": "Can change site", 
-      "content_type": 7
+      "content_type": [
+        "sites", 
+        "site"
+      ]
     }
   }, 
   {
@@ -440,7 +509,10 @@
     "fields": {
       "codename": "delete_site", 
       "name": "Can delete site", 
-      "content_type": 7
+      "content_type": [
+        "sites", 
+        "site"
+      ]
     }
   }, 
   {
@@ -449,7 +521,10 @@
     "fields": {
       "codename": "add_page", 
       "name": "Can add page", 
-      "content_type": 8
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -458,7 +533,10 @@
     "fields": {
       "codename": "change_page", 
       "name": "Can change page", 
-      "content_type": 8
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -467,7 +545,10 @@
     "fields": {
       "codename": "delete_page", 
       "name": "Can delete page", 
-      "content_type": 8
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -515,8 +596,13 @@
       "object_repr": "Lichttherapie", 
       "object_id": "7", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -528,8 +614,13 @@
       "object_repr": "Kaartje", 
       "object_id": "6", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -541,8 +632,13 @@
       "object_repr": "Links", 
       "object_id": "5", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -554,8 +650,13 @@
       "object_repr": "Contact", 
       "object_id": "4", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -567,8 +668,13 @@
       "object_repr": "Behandeling", 
       "object_id": "3", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -580,8 +686,13 @@
       "object_repr": "Aanmelding", 
       "object_id": "2", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -593,8 +704,13 @@
       "object_repr": "Introductie", 
       "object_id": "1", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -606,8 +722,13 @@
       "object_repr": "burnout", 
       "object_id": "2", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -619,8 +740,13 @@
       "object_repr": "MooiVerhaal", 
       "object_id": "6", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -632,8 +758,13 @@
       "object_repr": "Mooi Verhaal", 
       "object_id": "5", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 8
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "wiki", 
+        "page"
+      ]
     }
   }, 
   {
@@ -645,8 +776,13 @@
       "object_repr": "rienke", 
       "object_id": "2", 
       "change_message": "Changed first_name, last_name, email, is_staff and is_superuser.", 
-      "user": 1, 
-      "content_type": 3
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "auth", 
+        "user"
+      ]
     }
   }, 
   {
@@ -658,8 +794,13 @@
       "object_repr": "rienke", 
       "object_id": "2", 
       "change_message": "", 
-      "user": 1, 
-      "content_type": 3
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "auth", 
+        "user"
+      ]
     }
   }, 
   {
@@ -671,8 +812,13 @@
       "object_repr": "eric", 
       "object_id": "1", 
       "change_message": "Changed first_name and last_name.", 
-      "user": 1, 
-      "content_type": 3
+      "user": [
+        "eric"
+      ], 
+      "content_type": [
+        "auth", 
+        "user"
+      ]
     }
   }
 ]
