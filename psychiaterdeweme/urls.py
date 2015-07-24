@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import patterns, include, url
+from django.conf.urls import patterns, include, url
 from django.conf import settings
 
 from django.contrib import admin
@@ -8,7 +8,7 @@ urlpatterns = patterns('',
     # Examples:
      url(r'^logout$', 'django.contrib.auth.views.logout', name='logout'),
     url(r'^login$', 'django.contrib.auth.views.login', name='login'),   
-   (r'^', include('psychiaterdeweme.wiki.urls')),
+   (r'^', include('wiki.urls')),
    (r'^tinymce/', include('tinymce.urls')),
     # url(r'^frame/', include('frame.foo.urls')),
 

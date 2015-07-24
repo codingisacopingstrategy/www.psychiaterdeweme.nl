@@ -1,9 +1,9 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns
 
 from templatetags.wiki import WIKI_WORD
 
 
-urlpatterns = patterns('psychiaterdeweme.wiki.views',
+urlpatterns = patterns('wiki.views',
     (r'^$', 'index'),
     ('(?P<name>%s).html$' % r"(.*)", 'view'),
     ('(?P<name>%s).html/edit/$' % r"(.*)", 'edit'),
